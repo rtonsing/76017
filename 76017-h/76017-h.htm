@@ -1,0 +1,2745 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>A Croatian Composer | Project Gutenberg</title>
+    <link rel="icon" href="images/cover.jpg" type="image/x-cover">
+    <style>
+
+body { margin-left: 10%; margin-right: 10%; }
+
+h1,h2,h3,h4,h5,h6 { text-align: center; clear: both; }
+.h_subtitle{font-weight: normal; font-size: smaller;}
+
+p            { margin-top: .51em; text-align: justify; text-indent: 1.5em; margin-bottom: .49em; }
+p.no-indent  { margin-top: .51em; text-align: justify; text-indent: 0em; margin-bottom: .49em;}
+p.author     { margin-top: 1em; margin-right: 5%; text-align: right;}
+p.big_indent { text-indent: 2.5em;}
+p.neg-indent { text-indent: -1.5em; margin-left: 5%; margin-right: 5%; padding-left: 1.5em;}
+p.f80        { font-size: 80%;  text-align: center; text-indent: 0em; }
+p.f90        { font-size: 90%;  text-align: center; text-indent: 0em; }
+p.f110       { font-size: 110%; text-align: center; text-indent: 0em; }
+p.f120       { font-size: 120%; text-align: center; text-indent: 0em; }
+p.f150       { font-size: 150%; text-align: center; text-indent: 0em; }
+p.f200       { font-size: 200%; text-align: center; text-indent: 0em; }
+
+.fs_50  { font-size:   50%; }
+.fs_80  { font-size:   80%; }
+.fs_90  { font-size:   90%; }
+.fs_110 { font-size:  110%; }
+.fs_120 { font-size:  120%; }
+.fs_150 { font-size:  150%; }
+.fs_200 { font-size:  200%; }
+.fs_300 { font-size:  300%; }
+.fs_400 { font-size:  400%; }
+
+.spa1 { margin-top: 1em; }
+.spa2 { margin-top: 2em; }
+.spa3 { margin-top: 3em; }
+
+.spb1 { margin-bottom: 1em; }
+.spb2 { margin-bottom: 2em; }
+.spb3 { margin-bottom: 3em; }
+
+hr { width: 80%; margin-top: 2em; margin-bottom: 2em; margin-left: 10%; margin-right: 10%; clear: both; }
+hr.tb   {width: 45%; margin-left: 27.5%; margin-right: 27.5%; margin-top: 0.5em; margin-bottom: 0.5em;}
+hr.chap {width: 65%; margin-left: 17.5%; margin-right: 17.5%; margin-top: 2em; margin-bottom: 2em;}
+         @media print { hr.chap {display: none; visibility: hidden;} }
+hr.full {width: 92%; margin-left: 4%; margin-right: 4%; margin-top: 2em; margin-bottom: 2em;}
+hr.r10   {width: 10%; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 45%; margin-right: 45%;}
+hr.r60  {width: 60%; margin-top: 1em; margin-bottom: 1em; margin-left: 20%; margin-right: 20%;}
+
+div.chapter {page-break-before: always;}
+h2.nobreak  {page-break-before: avoid;}
+
+ul.index  { list-style-type: none; white-space: nowrap; }
+li.ifrst  { margin-top: 1em; }
+li.indx   { margin-top: .5em; }
+li.isub1  {text-indent: 1em;}
+li.isub2  {text-indent: 2em;}
+li.isub3  {text-indent: 3em;}
+li.isub4  {text-indent: 4em;}
+li.isub5  {text-indent: 5em;}
+li.isub6  {text-indent: 6em;}
+li.isub7  {text-indent: 7em;}
+li.isub8  {text-indent: 8em;}
+li.isub9  {text-indent: 9em;}
+li.isub10 {text-indent: 10em;}
+li.isub11 {text-indent: 11em;}
+li.isub12 {text-indent: 12em;}
+li.isub13 {text-indent: 13em;}
+li.isub14 {text-indent: 14em;}
+li.isub15 {text-indent: 15em;}
+
+
+table { margin-left: auto; margin-right: auto; white-space: nowrap;
+        border-spacing: 0px; border-collapse: collapse; }
+
+th, td { padding-top:  0px; padding-bottom: 0px;
+         padding-left: 0px; padding-right:  0px; }
+
+.tdl {text-align: left;}
+.tdr {text-align: right;}
+.tdc {text-align: center;}
+.tdc_top    {text-align: center; vertical-align: top;}
+.tdc_bott   {text-align: center; vertical-align: bottom;}
+.tdl_top    {text-align: left; vertical-align: top;}
+.tdl_bott   {text-align: left; vertical-align: bottom;}
+.tdr_top    {text-align: right; vertical-align: top;}
+.tdr_bott   {text-align: right; vertical-align: bottom;}
+.tdc_ws1    {text-align: center; vertical-align: middle; padding-left: 1em; padding-right: 1em;}
+.tdc_wsp    {text-align: center; vertical-align: middle; padding-left: 0.5em; padding-right: 0.5em;}
+.tdl_ws1    {text-align: left; vertical-align: middle; padding-left: 1em;}
+.tdl_ws2    {text-align: left; vertical-align: middle; padding-left: 2em;}
+.tdl_wsp    {text-align: left; vertical-align: middle; padding-left: 0.5em;}
+.tdr_ws1    {text-align: right; vertical-align: middle; padding-right: 1em;}
+.tdr_wsp    {text-align: right; vertical-align: middle; padding-right: 0.5em;}
+
+.pagenum { position: absolute;
+    left: 92%;
+    font-size: smaller;
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+}
+
+.blockquot { margin-left: 12%; margin-right: 12%; }
+
+.bb    {border-bottom: solid thin;}
+.bb2   {border-bottom: solid medium;}
+.bt    {border-top: solid thin;}
+.bt2   {border-top: solid medium;}
+.br    {border-right: solid thin;}
+.br2   {border-right: solid medium;}
+.bl    {border-left: solid thin;}
+.bl2   {border-left: solid medium;}
+.bbox  {border: solid medium;}
+
+.no-wrap  {white-space: nowrap; }
+.center   {text-align: center; text-indent: 0em;}
+.smcap    {font-variant: small-caps;}
+.allsmcap {font-variant: small-caps; text-transform: lowercase;}
+.u        {text-decoration: underline;}
+.over    {text-decoration: overline;}
+
+img { max-width: 100%; height: auto; }
+
+.figcenter { margin: auto; text-align: center;
+             page-break-inside: avoid; max-width: 100%; }
+
+.footnotes        {border: 1px dashed;}
+.footnote         {margin-left: 10%; margin-right: 10%; font-size: 0.9em;}
+.footnote .label  {position: absolute; right: 84%; text-align: right;}
+.fnanchor {
+    vertical-align: super;
+    font-size: .8em;
+    text-decoration:
+    none;
+}
+
+.transnote {background-color: #E6E6FA;
+    color: black;
+     font-size:smaller;
+     padding:0.5em;
+     margin-bottom:5em;
+     font-family:sans-serif, serif; }
+
+.ws2   {display: inline; margin-left: 0em; padding-left:  2em;}
+.ws3   {display: inline; margin-left: 0em; padding-left:  3em;}
+.ws4   {display: inline; margin-left: 0em; padding-left:  4em;}
+.ws5   {display: inline; margin-left: 0em; padding-left:  5em;}
+.ws6   {display: inline; margin-left: 0em; padding-left:  6em;}
+.ws7   {display: inline; margin-left: 0em; padding-left:  7em;}
+.ws8   {display: inline; margin-left: 0em; padding-left:  8em;}
+.ws9   {display: inline; margin-left: 0em; padding-left:  9em;}
+.ws10  {display: inline; margin-left: 0em; padding-left: 10em;}
+
+    </style>
+  </head>
+<body>
+<div style='text-align:center'>*** START OF THE PROJECT GUTENBERG EBOOK 76017 ***</div>
+<hr class="chap x-ebookmaker-drop">
+
+<div class="figcenter">
+  <img src="images/frontis.jpg" alt="" width="600" height="825" >
+  <p class="f120"><span class="smcap">Joseph Haydn</span></p>
+  <p class="center"><i>From an Engraving by W. Daniell<br>
+                after G. Dance, R.A.</i></p>
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<h1>A CROATIAN COMPOSER</h1>
+
+<p class="f110 spb3">NOTES TOWARD THE STUDY<br>OF<br>
+<span class="fs_150">JOSEPH HAYDN</span></p>
+
+<p class="f110"><span class="fs_80">BY</span><br>W. H. HADOW, M.A.</p>
+
+<p class="center"><i>Fellow of Worcester College, Oxford<br>
+Author of “Studies in Modern Music”</i></p>
+
+<p class="center spa3">LONDON<br>SEELEY AND CO. LIMITED<br>
+38 <span class="smcap">Great Russell Street</span><br>1897</p>
+
+<p class="f110 spa2"><span class="fs_80">TO</span><br>W. R. MORFILL</p>
+
+<p class="center"><i>A small return for much assistance and encouragement</i>
+<span class="pagenum"><a id="Page_5"></a>[Pg 5]</span></p>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak">PREFACE.</h2>
+</div>
+
+<p>The materials for this essay have been almost entirely gathered
+from two works by Dr. František Š. Kuhač, the one his collection of
+South Slavonic Folksongs, the other a pamphlet upon Joseph Haydn.
+Indeed, so greatly am I indebted to them that the essay would not
+have been written had it been possible to present them to the reader
+more directly. All that has been added is a certain rearrangement of
+the data, a certain amount of commentary and exposition, and a few
+supplementary facts which happen to have come within my reach. I should
+state that during a recent visit to Croatia, I saw Dr. Kuhač, who most
+kindly gave me full permission to make use of his results, and augmented
+the gift with much valuable information.
+<span class="pagenum"><a id="Page_6"></a>[Pg 6]</span></p>
+
+<p>It is not for me to determine how far the subject will be of interest
+to English readers. We have somewhat forgotten Haydn: we do not always
+attach great importance to abstract problems. But I venture to think
+that the practical issue is not insignificant, and that in any case the
+question of historical truth is one which demands some consideration
+and regard. There is little need to say that I am myself convinced of
+the point which I have endeavoured to make: if the facts have been
+misinterpreted, at least the endeavour may invite discussion.</p>
+
+<p>No doubt it will have to take its chance with those critics who would
+censure it at the outset for prying too curiously behind the veil. From
+such antagonists I beg, for two reasons, courteously to differ. In
+the first place, this is not a question of irrelevant detail, but an
+inquiry into the methods of a great artist, and into the character of
+his work. Grant that it deals with a single aspect alone, it does not
+therefore disregard or undervalue the others. And to suppose that Haydn
+<span class="pagenum"><a id="Page_7"></a>[Pg 7]</span>
+is depreciated by the acknowledgment of his debt to his age and country
+is, I think, somewhat to misunderstand the conditions under which all
+true “creative” art is produced. In the second place, if we accept
+the historical statement as true, we do something to rescue a musical
+nation from undeserved neglect. The race which has given to a master
+not only birth but inspiration may surely claim from us something
+better than the oblivion into which we have allowed its name to fall.</p>
+
+<p>I wish to offer all due acknowledgment to Mr. L. Finkenstein for his
+translation of Dr. Kuhač’s pamphlet.</p>
+
+<p><span class="smcap">Oxford</span>, <i>October 12, 1897</i>.</p>
+
+<p><span class="pagenum"><a id="Page_8"></a>[Pg 8]</span></p>
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum"><a id="Page_9"></a>[Pg 9]</span></p>
+<p class="f150"><b>A CROATIAN COMPOSER.</b></p>
+</div>
+
+<p>The study of Human Nature contains few problems more difficult or
+more important than those which deal with distinctions of national
+character. In most countries the original race, itself not always pure,
+has been affected and modified by a hundred causes; by conquest, by
+immigration, by intermarriage with neighbours, by all the circumstances
+and conditions of historical development; and the result is commonly
+a web of many diverse threads; in which we are fortunate if we can
+explain the prevailing colour and the prevailing pattern. Sometimes, as
+in our Indian Empire, the threads lie comparatively free, and puzzle us
+more by their number and variety than by actual closeness of texture.
+<span class="pagenum"><a id="Page_10"></a>[Pg 10]</span>
+Sometimes, as in the Kingdom of Hungary, the interplay is so thorough
+and so complex as almost to baffle analysis at the outset. And when to
+this is added the influence of climate, of government, of religion, of
+all that is implied in past record and traditional usage, it will be
+seen that the question of causality is one which may well tax to their
+utmost limit the skill and patience of the ethnologist.</p>
+
+<p>But if the reasons are hard to trace, the fact is no longer open to
+intelligible doubt. Physiology tells us that it manifests itself at
+birth; history, that it has formed a channel for the whole course and
+current of events. There is no crisis so great, there is no occurrence
+so trivial, as not to exhibit in some degree its presence and efficacy
+in the life of man. Nations at peace do not follow the same policy;
+nations in conflict do not fight with the same weapons; the contrast
+of laws and customs is so vivid that it has led some impatient
+philosophers to consider all morality relative. And what is true of
+the life as a whole is equally true of its specialisation in art and
+<span class="pagenum"><a id="Page_11"></a>[Pg 11]</span>
+literature. For these are pre-eminently the expression of the national
+voice, as intimate as its language, as vital as the breath that it
+draws, and every artist who has compelled the attention of the world at
+large has done so by addressing it as the spokesman of his own people.</p>
+
+<p>No doubt there are other factors in the case, the personal idiosyncrasy
+that separates a man from his fellows, and again the general
+principles, fewer perhaps than is commonly supposed, that underlie all
+sense of rhythm and all appreciation of style. But to say this is only
+to say that the artist is himself, and that he belongs to our common
+humanity. In everything, from the conception of a poem to the structure
+of a sentence, the national element bears its part with the other two;
+it colours the personal temperament, it gives a standpoint from which
+principles of style are approached, and wherever its influence is faint
+or inconsiderable the work of the artist will be found to suffer in
+proportion. It is hardly necessary to add that the law holds equally
+<span class="pagenum"><a id="Page_12"></a>[Pg 12]</span>
+good whether the race in question be pure or mixed. If the former,
+it will move along a single line: if the latter, it will mark the
+converging point of many; but in either case its operation is a sure
+test of genuineness both in feeling and expression. Occasionally,
+it may be, a careless public has been deceived by some trick of
+imitation—by the Spanish comedies of Clara Gazul or the Persian Lyrics
+of Mirza Schaffy; but such instances of deception no more traverse the
+law than the Ireland forgeries or the pictures of Cariani. Some men are
+born with a talent of mimicry: none have ever by its means attained to
+greatness.</p>
+
+<p>It may at once be admitted that this rule of national influence
+is at present less firmly established in music than in poetry or
+painting. In the two latter arts we have certain obvious externals
+to aid investigation—broad and salient contrasts of language, wide
+differences of scene and subject—with which music as such has little
+or nothing to do. Her subject is usually vague and indeterminate, her
+<span class="pagenum"><a id="Page_13"></a>[Pg 13]</span>
+vocabulary is made up of a few scales, and for the rest we are told
+that her genius is limited to the common emotions of mankind and the
+common inheritance of pure form. But it is wholly false to infer that
+music is independent of nationality. The composer bears the mark of
+his race not less surely than the poet or the painter, and there is no
+music with true blood in its veins and true passion in its heart that
+has not drawn inspiration from the breast of the mother country.</p>
+
+<p>Two main causes have retarded the acceptance of this truth. First,
+the belief that national melody is entirely an affair of artifices
+and mannerisms, that it is constituted by special turns of phrase and
+figure—as though you could make a rose tree by tying roses to a Scotch
+fir, or turn “Rule Britannia” into a Hungarian tune by ending it with
+a Hungarian cadence. This, it may be said, simply misunderstands the
+nature of the law which it criticises. No doubt a certain range of
+expression belongs to each type of folksong. No doubt these accidents
+of figure and phrase appear upon the surface, and are often useful as
+<span class="pagenum"><a id="Page_14"></a>[Pg 14]</span>
+indications, but it makes all the difference whether they grow
+naturally in their place or lie there as mere lifeless appendages.
+Even the foreign idioms which a great composer may occasionally employ
+are only a graft let into the parent stock; the new growth is at
+once modified by the influence of the old, and alters its character
+to match its change of condition. And apart from these rare grafts
+the phrase of a true master will always be found conformable to the
+spirit that animates it, not because it constitutes the spirit, but
+because it emanates as property from essence. The second error springs
+from our loose and inaccurate methods of classification. That Mozart
+was an Italian composer seems now to be taken as an accredited jest;
+but it is more serious when we show our gratitude for the splendid
+work that Germany has done by scoring to her account all that has
+been accomplished by her neighbours. Schumann claims Chopin as a
+fellow-countryman; we are so far from protesting that we add Liszt, for
+whom “the great German master” was long a newspaper synonym, and even
+<span class="pagenum"><a id="Page_15"></a>[Pg 15]</span>
+hesitate about Smetana and Dvořák. It is true that classification is
+often extremely difficult—records are imperfect, names are misleading,
+histories are marred by want of ethnological knowledge; but the
+admission of ignorance is not a very strong basis for dogmatic denial.
+Critics who traverse a law, because they cannot see its applicability
+to the facts, would do well to make sure at the outset that the facts
+have been correctly observed.</p>
+
+<p>The subject of the present essay is one of the most remarkable
+instances of such misattribution. From the time of Carpani to that
+of Dr. Nohl, Haydn’s biographers have been unanimous in describing
+him as a German, born, as everybody knows, in Lower Austria, speaking
+German as his native language, Teutonic in race, in character, in
+surroundings. Yet the more we study him the more impossible it becomes
+to regard his music as the work of a Teuton. It is undoubtedly affected
+by his education and circumstances, by the early study of Emanuel Bach,
+and the subsequent intercourse with Mozart, but when we penetrate to
+<span class="pagenum"><a id="Page_16"></a>[Pg 16]</span>
+the essential spirit of the man himself we find that its inherent
+characteristics are no more German than they are Italian or French.
+Haydn’s sentiment is of a kind without analogue among German
+Composers—mobile, nervous, sensitive, a little shallow it may be, but
+as pure and transparent as a mountain stream. His humour is a quality
+in which he stands almost alone; it differs totally from the wit of
+Mozart, or the grim jesting of Beethoven; it is quaint and playful,
+rippling over the whole surface of the page, and equally removed from
+satire and epigram. Again, he has less breadth and stateliness than
+belong to the German temper, but he has far more versatility. He was
+the most daring of pioneers, the most hazardous of experimentalists,
+and, what is more noticeable, his experiments are rather the natural
+outcome of a restless and vivid imagination than the efforts of a
+deliberate and conscious reform. From the external side, too, the same
+contrast is apparent. The shapes of his melodic phrases are not those
+<span class="pagenum"><a id="Page_17"></a>[Pg 17]</span>
+of the German folksong; his rhythms are far more numerous and varied;
+his metres are often strange and unfamiliar. Throughout Western Europe
+the four-bar line has almost uniformly been taken as the unit of
+measurement, carrying with it the corresponding stanza of eight or
+sixteen or thirty-two. In a hundred German or English folksongs it will
+be strange if a single exception can be found: in a hundred melodies
+from Haydn’s quartets it will be strange if the exceptions are not
+as frequent as the instances. In a word, his range of stanza is far
+wider than that known to the Germany of his day, and many of his most
+characteristic tunes belong to another language and another scheme of
+versification.</p>
+
+<p>The evidence here briefly epitomised can only point to one of two
+conclusions: either that the law of nationality is inapplicable to
+Haydn, or that his assignment to the German race is an ethnological
+error. The former alternative is unsatisfactory enough; the latter was
+for many years put out of court by our inability to sustain the
+<span class="pagenum"><a id="Page_18"></a>[Pg 18]</span>
+<i>onus probandi</i>. But in 1878 Dr. Kuhač began to publish his great
+collection of South Slavonic melodies,<a id="FNanchor_1" href="#Footnote_1" class="fnanchor">[1]</a>
+and in 1880 he supplemented it by a special pamphlet on Haydn’s relation to them.<a id="FNanchor_2" href="#Footnote_2" class="fnanchor">[2]</a>
+The main points of the thesis are three in number: first, that the Croatian
+folk-tunes possess all the characteristics which have been noted as
+distinctive in the melodies of Haydn; second, that many of them are
+actually employed by him; and third, that the facts of his birth and
+parentage afford strong presumptive proof that he was a Croatian by
+race.<a id="FNanchor_3" href="#Footnote_3" class="fnanchor">[3]</a>
+If this contention can be established it strengthens an important law
+with valuable and unexpected support, and it remains therefore that we
+should bring forward a critical statement of the case, beginning, for
+clearness’ sake, with the historical and biographical testimony, and so
+bringing into prominence the special character of the compositions themselves.
+<span class="pagenum"><a id="Page_19"></a>[Pg 19]</span></p>
+
+<p>First, then, we must consider whether the character of the Croatian
+people is such as to render its claim to Haydn reasonable and
+intelligible. It would be poor logic to illustrate our law by deriving
+a great artist from an inartistic nation. And the question becomes
+more pressing when we remember that Haydn’s whole family was musical,
+that he learned his first lessons from his father and mother, that his
+brother Michael long enjoyed a repute little inferior to his own. But
+to answer it in the affirmative is to run counter to an established
+belief. From Mrs. Western in “Tom Jones” to Barto Rizzo in “Vittoria”
+everybody has had a fling at the Croats. We have come to regard them at
+best as savages, and at worst as mercenary assassins. The associations
+that we connect with their name are those of war and pillage, of fierce
+onslaught and misused victory, of lives bartered for gain or spilled in
+mere wantonness. Their art is a matter into which we have never dreamed
+<span class="pagenum"><a id="Page_20"></a>[Pg 20]</span>
+of inquiring, and we should as soon think of learning their language
+as of accrediting them with a literature. To dispel this superstition
+it is only needful that we should study the country. Few towns are
+more charming than Agram, few regions more delightful than the long
+fertile valley of the Save in which it lies. In the remoter districts
+there is still much ignorance and much poverty, but civilisation is
+spreading from the centre, and eliciting, not creating, the signs of
+progress. The strongest impulse of the national life is loyalty to race
+and Church. Recent events have shown us that outbreaks may readily be
+provoked in religious and patriotic causes, but the temper that will
+fight for them is not ignoble, and is not infrequently conjoined with
+the inspiration that will make songs in their honour. And throughout
+the country the love of music prevails.<a id="FNanchor_4" href="#Footnote_4" class="fnanchor">[4]</a>
+The men sing at their plough, the girls sing as they fill their
+<span class="pagenum"><a id="Page_21"></a>[Pg 21]</span>
+water-pots at the fountain; by every village inn you may hear the
+jingle of the tambura, and watch the dancers footing it on the green.
+Grant that the music is not always of a high order, that the tunes are
+often primitive and the voices rude and uncouth, still the impetus is
+there, and it only needs guidance and direction. Certainly the present
+condition of the race does not disqualify it to be the parent of a
+great composer.</p>
+
+<p>It will be objected that this is only a present impression, and that it
+tells us nothing of those days when, apparently, the whole <i>raison
+d’être</i> of the population was to furnish fighting-men for the army
+of Maria Theresa. In answer to this, two points must be made clear:
+first, the state of Croatia proper during the past two centuries;
+second, the position occupied at the same period by other members of
+the Croatian race.<a id="FNanchor_5" href="#Footnote_5" class="fnanchor">[5]</a>
+The argument “e nihilo nihil” need hardly be stated here, though it will be
+seen later that nothing has been added to the Croats except opportunity.
+<span class="pagenum"><a id="Page_22"></a>[Pg 22]</span></p>
+
+<p>Throughout the eighteenth century the policy of the Austrian Government
+was to repress as far as possible the Slavonic peoples that lay under
+its rule. Bohemia, which had lost its independence at the Thirty Years’
+War, was intellectually the “desert” which the Emperor Ferdinand had
+wished to make it; and the same drastic measures, though for somewhat
+different reasons, were applied to the subject races that fringed the
+southern border. Croatia in particular was used merely as an outpost
+against Turkish invasion: “purchased,” as Dr. Kuhač says, “with a
+few empty political concessions,” but kept in reality under the close
+<span class="pagenum"><a id="Page_23"></a>[Pg 23]</span>
+discipline of a barrack-state. “We were not allowed,” he continues, “to
+provide for our people the advantages of a real city, we had no centre
+of intellectual life and progress, and it was considered a sufficient
+privilege if the name of capital was bestowed upon one or other of our
+towns.”<a id="FNanchor_6" href="#Footnote_6" class="fnanchor">[6]</a></p>
+
+<p>Naturally, the Croatian nobles spent as little time as possible in
+their own country. It was much more amusing to stay at Pressburg or
+Vienna, where there were balls and theatres and pageants, and a man
+could see life. And so it happened that even the chance of patronage
+was denied, and the people sank to a state of apathy, their gifts
+forgotten, their voice starved into silence. But about 1835, the poet
+Ljudevit Gaj began, as Tyl was doing in Bohemia, to restore from its
+suspended animation the intellectual life of his countrymen. He settled
+their alphabet. He made their grammar. He collected the folksongs from
+every village and hamlet, and enriched them with lyrics of his own. He
+<span class="pagenum"><a id="Page_24"></a>[Pg 24]</span>
+sowed dragon’s teeth over the length and breadth of the country, and
+there sprang up as if by magic a crop of artists. Of course they were
+not of any great European importance. Lisinski and Franz von Suppé
+are the most famous among their musicians—but the whole lesson had
+to be learned anew, and these men were the first pupils.<a id="FNanchor_7" href="#Footnote_7" class="fnanchor">[7]</a>
+And when the revolutions of 1848 gave fresh impulse to national life, a second
+chapter opened in the Croatian renascence, and, under the patronage of
+Bishop Strossmayer, there rose into being a new artistic generation.<a id="FNanchor_8" href="#Footnote_8" class="fnanchor">[8]</a>
+Here, again, the musicians rather lag behind the poets and the men of
+letters; there was no conservatorium, there was no satisfactory method
+of training, and the young talent was generally too poor to embrace the
+opportunities which foreign lands afforded. But, if as yet the quality
+of the work is slight and trivial, something at least should be said
+about its extraordinary volume and facility. And it should be added
+that the leaders of the present generation—Zajc, Vilhar, Faller, Dr.
+Kuhač himself—are all making large use of the national melodies as material.
+<span class="pagenum"><a id="Page_25"></a>[Pg 25]</span></p>
+
+<p>Meantime, while the fortunes of Croatia were at their lowest, an
+event of earlier occurrence was producing important consequences. The
+Southern Slavs had always been a migratory people. As early as 595 they
+occupied the Tyrolean Pusterthal, where they have left their mark,
+not only in the character of the inhabitants but in a large number of
+local names<a id="FNanchor_9" href="#Footnote_9" class="fnanchor">[9]</a>;
+later, under stress of Turkish invasion, they colonised Montenegro;
+and in the fifteenth or sixteenth century a body of Eastern
+Croats—Bosnen or Wasser-Kroaten, as the Germans called them—settled
+in the district of Central Austria which extends from Lake Balaton
+north-west to the Danube. The new home was eminently suited to the
+development of the race. It was rich and fertile, with vine-clad hills
+<span class="pagenum"><a id="Page_26"></a>[Pg 26]</span>
+and broad stretches of alluvial plain, it was well wooded and well
+watered, it extended to Pressburg, the second city in the empire, and
+contained at least one other town of considerable note; it was within
+easy reach of the great intellectual and artistic movements. There is
+little wonder that this region soon came to be regarded as the focus of
+Croatian life, and that the wealth which sought it for entertainment
+attracted in due course the talent which sought it for livelihood.</p>
+
+<div class="figcenter">
+  <img src="images/map.jpg" alt="" width="600" height="793" >
+</div>
+
+<p><span class="pagenum"><a id="Page_27"></a>[Pg 27]</span>
+The number of the original immigrants is unknown, but by the eighteenth
+century they unquestionably formed the larger part of the population.
+In 1780 Pressburg contained rather less than 28,000 inhabitants,
+of whom about half are noted in the official census as Croats or
+Slavonians; while the smaller towns and villages in the neighbourhood
+were mainly occupied by the newcomers, and are still, despite German
+and Magyar influence, largely affected by Slavonic traditions. One
+curious and rather bewildering consequence is that almost every
+place in the region has possessed two names, one the German, used
+for official purposes; the other, Slavonic, for the benefit of the
+population. And when we add that east of the Leitha the Slavonic
+name is being ousted by the Hungarian, it will be seen that the
+unsophisticated traveller may now and again be at some difficulty to
+ascertain his route. An amusing instance fell under my own experience
+during the summer of 1897. Wishing to make pilgrimages to Eisenstadt,
+where Haydn was Kapellmeister, and to Željez, where Schubert taught
+music to Countess Esterházy, I took a ticket at Vienna for the first
+of these places, only to find, when my watch informed me of my
+destination, that Eisenstadt and Željez were the same place, and that
+the name upon the railway-station was Kis Martom.<a id="FNanchor_10" href="#Footnote_10" class="fnanchor">[10]</a></p>
+
+<p>It is something more than a coincidence that among all districts of
+Austria this area of Croatian settlement has been the most fruitful in
+<span class="pagenum"><a id="Page_28"></a>[Pg 28]</span>
+great musicians. Veit Bach, the grandfather of John Sebastian,
+was born at Pressburg; so was Chopin’s great hero, Johann Nepomuk
+Hummel. The Haydns came from a neighbouring village, the proper name
+of which—Trstnik—was despairingly translated by the Germans into
+Rohrau. Joseph Weigl was a native of Eisenstadt, so was Ivan Fuchs,
+who succeeded Hummel as Prince Esterházy’s Kapellmeister. Liszt was
+born at Rustnik, near Oedenburg, Joachim at Kitsee, Ludwig Strauss at
+Pressburg, Carl Goldmark at Keszthely. And round this constellation
+there gathers a whole nebula of lesser stars<a id="FNanchor_11" href="#Footnote_11" class="fnanchor">[11]</a>
+names unfamiliar, it may be, to English readers, but in their own
+country accepted and recognised. Of course it is not claimed that all
+these artists are of Croatian blood. Some unquestionably are not; but
+there is at least an <i>a priori</i> likelihood that some of them
+belonged to the race which was numerically dominant, especially as that
+race was Slavonic and therefore musical, and on this general point a word
+may perhaps be said before we proceed to particularise in the case of Haydn.
+<span class="pagenum"><a id="Page_29"></a>[Pg 29]</span></p>
+
+<p>Now, apart from his, it should be noted that none of the names given
+above are distinctively Slavonic in character. For this fact a simple
+reason suffices. There had long been spreading through the world of
+music a practice, originated in Europe by scholars and divines, of
+taking a <i>nom de guerre</i> which should either represent the sound
+or translate the meaning of the family name. Erasmus, Melanchthon,
+Stephanus are familiar instances in the world of letters, and following
+these august models Grobstimm became Baryphonus; Schneider, Sartorius;
+Glareau, Loritius; and the like. Musicians for the most part seem
+to have avoided Latin and taken in its place whatever language lay
+ready to hand for display or convenience. Thus two famous Bohemians
+called themselves Dussek and Gyrowetz; Beethoven’s father occasionally
+appeared as Bethoff; and the list may be extended even to such
+<span class="pagenum"><a id="Page_30"></a>[Pg 30]</span>
+grotesques as Gionesi and Coperario. This device was specially
+necessary to the Croatian who was aiming at a career. We know with what
+diligence poor Abel, fresh from the German vowel sounds, endeavoured
+to adapt his name to the requirements of a British public.<a id="FNanchor_12" href="#Footnote_12" class="fnanchor">[12]</a>
+The need of adaptation is still greater when the language is one which
+hardly any foreigner can hope to pronounce. Thus it was that the Croatian
+words tended to drop out altogether, and to be replaced by some rough
+German or Italian equivalent; and so complete was the transformation
+that we have to look twice before recognising Beethoven’s first violin
+in Župančić, or finding in Trtić the composer of the “Trillo del
+diavolo.”<a id="FNanchor_13" href="#Footnote_13" class="fnanchor">[13]</a>
+In like manner the words “Bach” and “Hummel” may very possibly have been
+<span class="pagenum"><a id="Page_31"></a>[Pg 31]</span>
+translations of Croatian names, names which are known to have existed
+in Pressburg and which bear the same meaning; while the family of
+Liszt, also claimed by Dr. Kuhač,<a id="FNanchor_14" href="#Footnote_14" class="fnanchor">[14]</a>
+may have been Slavonic in origin, though by the time of the great
+pianist the Magyar element had predominated for about a century. At
+any rate there can be no reasonable doubt as to the Slavonic origin of
+Tartini, Dragonetti, Giornovichi, Zingarelli, and many other of Haydn’s
+contemporaries. There may have been in them some intermixture of race,
+but the parent stock was Croatian.</p>
+
+<p>We cannot, then, assert that there is any antecedent improbability in
+assigning Haydn to the Croats. They are a musical people, they formed
+the chief population of the district where he was born, they have a
+fair claim to other great musicians of his time. It follows that we
+should discuss the biographical evidence, and see what is to be made
+out of the record of Haydn’s family.</p>
+
+<p>And here attention should be called to three points. First, that the
+<span class="pagenum"><a id="Page_32"></a>[Pg 32]</span>
+name Hajden or Hajdin (with its derivative Hajdenić, Hajdinović, &amp;c.)
+is of common occurrence throughout Croatia, and, in days when spelling
+was roughly phonetic, may easily have appeared in Austrian official
+documents as Haiden or Hayden, forms by which its pronunciation is
+exactly represented. Now among all the variants assumed by the name
+of the composer’s family,<a id="FNanchor_15" href="#Footnote_15" class="fnanchor">[15]</a>
+these two are the most frequent and the most authoritative.
+His great-grandfather—the first member of the house who can be
+traced—appears in the Hainburg register as Caspar Haiden; his
+grandfather, once by obvious error called Thomas Hayrn, is usually
+Hayden elsewhere, the contemporary monuments at Rohrau give Mathias
+Haiden as the name of his father and Josephus Hayden as his own. He
+himself seems to have used the dissyllabic form up to January, 1762,
+when he signs for salary at Eisenstadt “Giuseppe Hayden”; in the
+<span class="pagenum"><a id="Page_33"></a>[Pg 33]</span>
+February of the same year he changes to the signature “Joseph Haydn”
+which he afterwards habitually adopted. Even then the majority of
+documents relating to him are conservative enough to retain the earlier
+orthography, and the monument in Count Harrach’s park, which bears the
+name Josephus Hayden, was erected as late as 1794. Indeed, there can
+be little doubt that Haiden or Hayden was the family name, shortened
+to suit the Viennese convention, as for the same reason Händel used to
+be shortened to Händl.<a id="FNanchor_16" href="#Footnote_16" class="fnanchor">[16]</a>
+Secondly, the name, in one or other of its variants, is widely spread
+over the whole district from Wiener-Neustadt to Oedenburg. Dr. Pohl
+found it in some ten or a dozen villages, many of which are claimed
+by Dr. Kuhač as Croatian, and in the country towns like Hainburg or
+Eisenstadt it is of course more frequent still. There is no need to
+<span class="pagenum"><a id="Page_34"></a>[Pg 34]</span>
+remind the reader that this is precisely the region occupied, since
+the sixteenth century, by the Slavonic immigrants. Thirdly, the home
+of the entire Haydn family is situated at the centre of the district
+in question. Caspar was born within sight of the Hainburg walls,
+Thomas lived and died as a burgher of that town, Mathias, after a
+brief period of travel, settled at Rohrau some ten miles away, and
+the most adventurous of his brothers wandered no further afield than
+Frankenmarkt or Ungarisch-Altenburg. It fits well enough with this
+home-keeping temper that Joseph Haydn should have spent more than
+threescore and ten years of his life inside a thirty mile radius from
+his native place.</p>
+
+<p>On the father’s side, then, Haydn would seem to belong to the Slavonic
+race among whom he lived and worked.<a id="FNanchor_17" href="#Footnote_17" class="fnanchor">[17]</a>
+Again, his mother was a native of Rohrau, in her day a distinctively
+Croatian village,<a id="FNanchor_18" href="#Footnote_18" class="fnanchor">[18]</a>
+and her maiden name of Koller—a <i>vox nihili</i> in German—is plausibly
+<span class="pagenum"><a id="Page_35"></a>[Pg 35]</span>
+regarded by Dr. Kuhač as a phonetic variant of the Croatian Kolar
+“wheelwright.”<a id="FNanchor_19" href="#Footnote_19" class="fnanchor">[19]</a>
+Everything that we know about his look and character favour the
+supposition of Slavonic descent. The lean ugly kindly face with high
+cheek-bones, long nose, and broad prominent under lip, the keen grey
+eyes softened by a twinkle of humour, the thin wiry figure, the strong
+nervous hands; all these and their analogues may be seen to-day in any
+village where Slavonic blood is still pure; and though of course they
+afford no argument in themselves, they add a touch of corroborative
+evidence which is worth noting. To the same cause may be traced that
+<span class="pagenum"><a id="Page_36"></a>[Pg 36]</span>
+intense love of sport which has left his name as a proverb at
+Eisenstadt<a id="FNanchor_20" href="#Footnote_20" class="fnanchor">[20]</a>;
+and something, too, of the conviviality which made him say that his
+best evenings were those spent with his comrades at the “Engel.” His
+talk, like his music, was full of that obvious fun which raises a
+laugh by a sudden touch of the unexpected; so are hundreds of Croatian
+ballads and aphorisms.<a id="FNanchor_21" href="#Footnote_21" class="fnanchor">[21]</a>
+The humour is sometimes primitive, as when a Croat will tell you, “It
+is as true as that two and two make seven”; sometimes it reaches a
+more respectable level, as the gibe at the Bosnian Brethren, “who were
+ordered to abstain from something in Lent, and therefore took no water
+in their wine.” But good, bad, or indifferent, it marks a distinctive
+type of peasant character; and in remembering that Haydn was a genius
+we need not forget that he was a peasant. The same holds good, too, of
+his religious feeling. It is not without significance that we may turn
+<span class="pagenum"><a id="Page_37"></a>[Pg 37]</span>
+from one of his scores, with its “In Nomine Domini” at the beginning,
+and its “Laus Deo” at the end, to read in our newspaper that another
+Croatian village has risen in revolt upon the bare report of an
+ecclesiastical change. His temper, it may be, had grown more equable
+than that of his uneducated countrymen; it had not lost anything of
+their loyalty.</p>
+
+<p>The reasons which have led to this indication of detail may easily be
+misunderstood. It is not, of course, contended that any race has the
+monopoly of these characteristics, or that it differs ethically from
+its neighbours except by the very important fact of the proportion in
+which they are blended. But when it appears that the more we study
+Haydn, and the more we study the Slavonic character, the closer becomes
+the accord between them, when every feature of the one finds its
+parallel in the prevailing qualities of the other, then we may surely
+infer that to the antecedent probability some weight is added by this
+estimate of internal evidence. And probability will strengthen to
+<span class="pagenum"><a id="Page_38"></a>[Pg 38]</span>
+certitude if we realise that Haydn’s music is saturated with Croatian
+melody, that the resemblances are beyond question, beyond attribution
+of coincidence, beyond any explanation but that of natural growth. Some
+of his tunes are folksongs in their simplest form, some are folksongs
+altered and improved, the vast majority are original, but display
+the same general characteristics. He would stand wholly outside the
+practice of the great composers if he wrote, by habitual preference,
+in an idiom that was not his own.</p>
+
+<p>His acquaintance with these folk-tunes must have begun from his
+earliest years. His father, we know, was a good musician who used,
+of an evening, to sit by the cottage door at Rohrau, singing to the
+children until they plucked up their courage and joined in. And when
+Frankh carried off the boy for his first experience of schooling, it
+was only to Hainburg, the earlier home of the family, where he may well
+have heard the same ballads breaking the quiet of the market-place, or
+echoing under the great arch of the Wiener Thor. Then, no doubt, came a
+<span class="pagenum"><a id="Page_39"></a>[Pg 39]</span>
+change; the splendid apparition of George Reutter, the halo of Imperial
+patronage, the ten years in the choir at St. Stephen’s, the sharp
+struggle for existence when the boy’s voice broke, and he was turned
+into the streets of Vienna to shift for himself. It is in every way
+natural that his first composition should show little direct trace of
+national influence. He was in his student period; like all students
+he was dominated by the authority of his models, and for a time his
+chief ambition was to master the form of Emanuel Bach, and emulate the
+counterpoint of the Gradus ad Parnassum. But from the days when he
+began to speak in his own voice the Slavonic qualities unmistakably
+appear. There is the same general shape of melody, the same repetition
+of phrases, the same oddity of rhythm and metre, the same fineness and
+sensitiveness of feeling; and that not once or twice in a composition,
+but throughout its entire length. The common employment of folksongs
+dates from the Symphony in D major (1762) to the Salomon Symphonies of
+<span class="pagenum"><a id="Page_40"></a>[Pg 40]</span>
+1795; they find their way into everything—hymns, quartets,
+divertimenti; not, of course, because Haydn had any need to take
+them, but because he loved them too well to leave them out. It will
+be remembered that for thirty years, from 1761 to 1790, he worked as
+Prince Esterházy’s Kapellmeister in the very centre of the Croatian
+colony. He must have heard these songs every day, he must have set
+his life to their lilt and cadence; they were the melodies of his own
+people, the echoes of his own thought. No one is surprised that Burns
+should have gathered the Ayrshire peasant songs and transmuted them
+into gold by the fire of his genius; it is not more wonderful that
+Haydn should have enriched the treasures of Eisenstadt with metal from
+his native mines, and as Heine pertinently puts it, the Temple is built
+by the Architect, not by the stone-cutters who supply him with his materials.</p>
+
+<p>Among the numerous illustrations collected by Dr. Kuhač, the
+following deserve special attention. <span class="pagenum"><a
+id="Page_41"></a>[Pg 41]</span></p>
+
+<p>(1) The Cassation in G major
+(1765)<a id="FNanchor_22" href="#Footnote_22" class="fnanchor">[22]</a>
+begins as follows:—</p>
+
+<div class="figcenter">
+  <img src="images/pg_41_a.jpg" alt="" width="600" height="84" >
+  <p class="center"><a href="music/pg_41_a.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">a melody noticeable for the breaking of the
+four-quaver rhythm by alternate bars of six. It can hardly be doubted
+that when Haydn wrote this he had in his mind the old Slavonic drinking
+song, “Nikaj na svetu”—</p>
+
+<div class="figcenter">
+  <img src="images/pg_41_b.jpg" alt="" width="600" height="168" >
+  <p class="center"><a href="music/pg_41_b.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">variants of which may still be heard in Croatia,
+and in the Carinthian Zillerthal. Similar instances of slight
+adaptation may be traced from the spring song, “Proljeće”—</p>
+
+<div class="figcenter">
+  <img src="images/pg_41c_42a.jpg" alt="" width="600" height="272" >
+  <p class="center"><a href="music/pg_41c_42a.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent"><span class="pagenum"><a id="Page_42"></a>[Pg 42]</span>
+which appears at the beginning of the D major Quartet (Op. 17, No. 6) as—</p>
+
+<div class="figcenter">
+  <img src="images/pg_42_b.jpg" alt="" width="600" height="290" >
+  <p class="center"><a href="music/pg_42_b.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">and from the dance-song “Hajde malo dere”—</p>
+
+<div class="figcenter">
+  <img src="images/pg_42_c.jpg" alt="" width="600" height="173" >
+  <p class="center"><a href="music/pg_42_c.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">which is thus altered by Haydn—</p>
+
+<div class="figcenter">
+  <img src="images/pg_42_d.jpg" alt="" width="600" height="210" >
+  <p class="center"><a href="music/pg_42_d.mp3">[Listen]</a></p>
+</div>
+
+<p><span class="pagenum"><a id="Page_43"></a>[Pg 43]</span>
+(2) The curious and characteristic finale of the D major Symphony
+(Salomon, No. 7) is founded on the following theme:—</p>
+
+<div class="figcenter">
+  <img src="images/pg_43.jpg" alt="" width="600" height="581" >
+  <p class="center"><a href="music/pg_43.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">This is simply an amended version of the popular
+ballad, “Oj Jelena,” which belongs to the district of Kolnov, near
+Oedenburg, and is specially noted by Dr. Kuhač as being commonly sung
+<span class="pagenum"><a id="Page_44"></a>[Pg 44]</span>
+in Eisenstadt. Its tune, essentially Slavonic in rhythm and cadence,
+runs thus:—</p>
+
+<div class="figcenter">
+  <img src="images/pg_44_a.jpg" alt="" width="600" height="377" >
+  <p class="center"><a href="music/pg_44_a.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">Variants of this melody are found in Croatia
+proper, Servia, and Carniola.<a id="FNanchor_23" href="#Footnote_23" class="fnanchor">[23]</a></p>
+
+<p>It is probable that the other movements of this symphony are equally
+influenced by folksongs; in any case, no doubt can exist as to the
+Symphony in E♭, “Mit dem Paukenwirbel.” The opening theme of the Allegro—</p>
+
+<div class="figcenter">
+  <img src="images/pg_44_b.jpg" alt="" width="600" height="185" >
+  <p class="center"><a href="music/pg_44_b.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent"><span class="pagenum"><a id="Page_45"></a>[Pg 45]</span>
+is noted by Dr. Kuhač as Croatian.<a id="FNanchor_24" href="#Footnote_24" class="fnanchor">[24]</a> The Andante is founded on two
+themes, the first minor—</p>
+
+<div class="figcenter">
+  <img src="images/pg_45_a.jpg" alt="" width="600" height="177" >
+  <p class="center"><a href="music/pg_45_a.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">the second major—</p>
+
+<div class="figcenter">
+  <img src="images/pg_45_b.jpg" alt="" width="600" height="568" >
+  <p class="center"><a href="music/pg_45_b.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent"><span class="pagenum"><a id="Page_46"></a>[Pg 46]</span>
+both of which are taken, and considerably improved, from two folksongs
+of the Oedenburg district, (<i>a</i>) “Na Travniku”—</p>
+
+<div class="figcenter">
+  <img src="images/pg_46_a.jpg" alt="" width="600" height="191" >
+  <p class="center"><a href="music/pg_46_a.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">and (<i>b</i>) “Jur Postaje”—</p>
+
+<div class="figcenter">
+  <img src="images/pg_46_b.jpg" alt="" width="600" height="268" >
+  <p class="center"><a href="music/pg_46_b.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">while the principal tune of the Finale—</p>
+
+<div class="figcenter">
+  <img src="images/pg_46_c.jpg" alt="" width="600" height="177" >
+  <p class="center"><a href="music/pg_46_c.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">is that of the song “Divojčica potok gazi”—</p>
+
+<div class="figcenter">
+  <img src="images/pg_46_d.jpg" alt="" width="600" height="175" >
+  <p class="center"><a href="music/pg_46_d.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent"><span class="pagenum"><a id="Page_47"></a>[Pg 47]</span>
+which is common among the Croats, especially those of Haydn’s
+district.<a id="FNanchor_25" href="#Footnote_25" class="fnanchor">[25]</a>
+Again, the Trio of the A major Symphony (No. 11 in Haydn’s Catalogue)
+contains a Slavonic melody—</p>
+
+<div class="figcenter">
+  <img src="images/pg_47_a.jpg" alt="" width="600" height="165" >
+  <p class="center"><a href="music/pg_47_a.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">and the first movement of its successor (D major, No. 12)
+suggests another—</p>
+
+<div class="figcenter">
+  <img src="images/pg_47_b.jpg" alt="" width="600" height="76" >
+  <p class="center"><a href="music/pg_47_b.mp3">[Listen]</a></p>
+</div>
+
+<p>(3) There are several cases in which, without direct adaptation, Haydn
+has shown the same tendency of thought or phrase as the Slavonic
+folksongs. A favourite “curve” of his may be illustrated by the opening
+of the B♭ Symphony (Salomon, No. 9)—</p>
+
+<div class="figcenter">
+  <img src="images/pg_47_c.jpg" alt="" width="600" height="80" >
+  <p class="center"><a href="music/pg_47_c.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent"><span class="pagenum"><a id="Page_48"></a>[Pg 48]</span>
+as well as by the Dalmatian Overture of Franz von Suppé and the tunes
+(from Zara and Borištov) on which it was founded—<i>e.g.</i>, the
+ballad “Na placi sem stal”—</p>
+
+<div class="figcenter">
+  <img src="images/pg_48_a.jpg" alt="" width="600" height="80" >
+  <p class="center"><a href="music/pg_48_a.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">Another, even more beautiful, ends the opening
+strain in the Adagio of the G major Quartet (Op. 77, No. 1)—</p>
+
+<div class="figcenter">
+  <img src="images/pg_48_b.jpg" alt="" width="600" height="228" >
+  <p class="center"><a href="music/pg_48_b.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">and appears also in the Croatian “Čuješ doro dobro moje”—</p>
+
+<div class="figcenter">
+  <img src="images/pg_48_c.jpg" alt="" width="600" height="88" >
+  <p class="center"><a href="music/pg_48_c.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">while the use of the unprepared dominant ninth,
+constructed out of a dominant seventh by shifting the melody a third
+higher, was not so common in Haydn’s day that we can afford to neglect
+the resemblance of—</p>
+
+<div class="figcenter">
+  <img src="images/pg_48_d.jpg" alt="" width="600" height="98" >
+  <p class="center"><a href="music/pg_48_d.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent"><span class="pagenum"><a id="Page_49"></a>[Pg 49]</span>
+quoted by Dr. Kuhač from a Quartet in B♭,<a id="FNanchor_26" href="#Footnote_26" class="fnanchor">[26]</a> to—</p>
+
+<div class="figcenter">
+  <img src="images/pg_49.jpg" alt="" width="600" height="232" >
+  <p class="center"><a href="music/pg_49.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">from a popular folksong of Carniola.</p>
+
+<p>(4) These latter examples do not imply reminiscences, but at most a
+general sympathy of temper. A good deal more, however, is involved in
+the treatment of Slavonic dance tunes. It is hardly too much to say
+that what the Csardas was to Liszt the Kolo was to Haydn; with this
+difference—that the earlier and greater musician has throughout made
+a finer use of his materials. The Kolo is a Slavonic measure, which I
+have seen the children dance at Agram and the men at Sarajevo, bright
+<span class="pagenum"><a id="Page_50"></a>[Pg 50]</span>
+and cheery of movement, its tune in two-four time ingeniously varied by
+patterns of quaver and semiquaver figures. Here, for instance, is an
+example well known in Bosnia and Dalmatia:—</p>
+
+<div class="figcenter">
+  <img src="images/pg_50_a.jpg" alt="" width="600" height="171" >
+  <p class="center"><a href="music/pg_50_a.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">and used with an amended cadence in the Finale of
+the C major Quartet (Op. 33, No. 3):—</p>
+
+<div class="figcenter">
+  <img src="images/pg_50_b.jpg" alt="" width="600" height="173" >
+  <p class="center"><a href="music/pg_50_b.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">Here, again, is a similar dance-tune from Servia,
+which opens the Symphony in D major (Haydn’s Catalogue, No. 4):—</p>
+
+<div class="figcenter">
+  <img src="images/pg_50_c.jpg" alt="" width="600" height="81" >
+  <p class="center"><a href="music/pg_50_c.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">and here another in the Finale of the G major
+Quartet (Op. 77, No. 1):—
+<span class="pagenum"><a id="Page_51"></a>[Pg 51]</span></p>
+
+<div class="figcenter">
+  <img src="images/pg_51_a.jpg" alt="" width="600" height="173" >
+  <p class="center"><a href="music/pg_51_a.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">in which so wonderful an effect is produced by the
+alternation of cold unison and glowing harmonies.</p>
+
+<p>Many of Haydn’s characteristic melodies follow one or other of these
+types: <i>e.g.</i>, this from the Finale of the F major Quartet (Op.
+74, No. 2)—</p>
+
+<div class="figcenter">
+  <img src="images/pg_51_b.jpg" alt="" width="600" height="204" >
+  <p class="center"><a href="music/pg_51_b.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">or this from the “Bear” Symphony:—</p>
+
+<div class="figcenter">
+  <img src="images/pg_51_c.jpg" alt="" width="600" height="215" >
+  <p class="center"><a href="music/pg_51_c.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">or this from the Finale of the Quartet in D (Op. 76, No. 5):—
+<span class="pagenum"><a id="Page_52"></a>[Pg 52]</span></p>
+
+<div class="figcenter">
+  <img src="images/pg_52_a.jpg" alt="" width="600" height="347" >
+  <p class="center"><a href="music/pg_52_a.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">while the metrical peculiarities of the Eastern or
+Servian Slav may be illustrated by the following, from the Symphony in
+F major (No. 1 in the Viennese edition):—</p>
+
+<div class="figcenter">
+  <img src="images/pg_52_b.jpg" alt="" width="600" height="218" >
+  <p class="center"><a href="music/pg_52_b.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">as they may, apart from the Kolo measure, in
+a hundred of his minuets and finales. Again, the early Pianoforte
+Concerto in D major ends with an oddly named “Rondo à l’Hongrie”, the
+principal subject of which is as follows:—</p>
+
+<div class="figcenter">
+  <img src="images/pg_52_c_53_a.jpg" alt="" width="600" height="524" >
+  <p class="center"><a href="music/pg_52_c_53_a.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent"><span class="pagenum"><a id="Page_53"></a>[Pg 53]</span>
+This melody, which contains no Magyar characteristics, either of
+figure, scale, or stanza, is compressed from that of the Siri Kolo, as
+commonly danced in Bosnia and Dalmatia. The complete tune runs:—</p>
+
+<div class="figcenter">
+  <img src="images/pg_53_b_55-1.jpg" alt="" width="600" height="729" >
+  <img src="images/pg_53_b_55-2.jpg" alt="" width="600" height="721" >
+  <p class="center"><a href="music/pg_53_b_55.mp3">[Listen]</a></p>
+</div>
+
+<p><span class="pagenum"><a id="Page_54"></a>[Pg 54]</span></p>
+<p>&nbsp;</p>
+<p><span class="pagenum"><a id="Page_55"></a>[Pg 55]</span></p>
+
+<p class="no-indent">a typical rustic dance, which in Haydn’s
+hands has gained not only by compression, but by a more artistic
+accompaniment.</p>
+
+<p>(5) In addition to the dance measure, Haydn has adopted other
+instrumental forms, <i>e.g.</i>, marches, bag-pipe melodies, and
+the like. Here is one, with a strange rhythm, from the Pianoforte
+Scherzando in F major:—
+<span class="pagenum"><a id="Page_56"></a>[Pg 56]</span></p>
+
+<div class="figcenter">
+  <img src="images/pg_56_a.jpg" alt="" width="600" height="302" >
+  <p class="center"><a href="music/pg_56_a.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">and here, from the Finale of the B♭ Symphony
+(Salomon, No. 9), is the march which is commonly played in Turopol at
+rustic weddings:—</p>
+
+<div class="figcenter">
+  <img src="images/pg_56_b.jpg" alt="" width="600" height="89" >
+  <p class="center"><a href="music/pg_56_b.mp3">[Listen]</a></p>
+</div>
+
+<p>Another Croatian march beginning—</p>
+
+<div class="figcenter">
+  <img src="images/pg_56_c.jpg" alt="" width="600" height="96" >
+  <p class="center"><a href="music/pg_56_c.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">has been identified by Dr. Kuhač from an
+unpublished Symphony in A major, and there is a further example from
+the Allegro of the B♭ Quartet (Op. 71, No. 1)—</p>
+
+<div class="figcenter">
+  <img src="images/pg_56_d.jpg" alt="" width="600" height="197" >
+  <p class="center"><a href="music/pg_56_d.mp3">[Listen]</a></p>
+</div>
+
+<p><span class="pagenum"><a id="Page_57"></a>[Pg 57]</span>
+(6) The two most remarkable instances are yet to come. According
+to a well-known story, Prince Esterházy once discussed with his
+Kapellmeister the question whether Church music could not be made
+“at the same time religious and popular.” It is hard to realise
+that Haydn’s Masses were ever regarded as too severe; in any case,
+the Prince felt dissatisfied, and wanted a change. He had recently
+returned from his annual pilgrimage to Maria Zell. He had heard there
+music which pleased him, and he seems to have suggested that in the
+Eisenstadt chapel there was too much counterpoint and too little
+melody. Haydn listened, sent to Maria Zell for information, bided his
+time, and, when next year the day of the pilgrimage was approaching,
+wrote a “Mass” or Service to German words,<a id="FNanchor_27" href="#Footnote_27" class="fnanchor">[27]</a>
+despatched it to the famous church, had it secretly practised, and
+<span class="pagenum"><a id="Page_58"></a>[Pg 58]</span>
+finally found an excuse for slipping off on a holiday. The Prince came
+back more dissatisfied than ever. “I have heard,” he said, “a service
+of Church music composed and played in a style which you will never
+equal.” “Your Highness,” answered Haydn, “the composition was mine, and
+I was the organist.”</p>
+
+<p>From this “Mass,” of which at present no other trace seems to be
+discoverable, Dr. Kuhač quotes seven melodies on the authority of the
+Dominican Alois Russwurm, who was a personal friend of Haydn, and by
+whom the story was originally recorded.</p>
+
+<p>The first, “Hier liegt vor Deiner Majestät,” is the opening theme of
+the first number—</p>
+
+<div class="figcenter">
+  <img src="images/pg_58_a.jpg" alt="" width="600" height="108" >
+  <p class="center"><a href="music/pg_58_a.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">and comes from the Croatian tune—</p>
+
+<div class="figcenter">
+  <img src="images/pg_58_b.jpg" alt="" width="600" height="92" >
+  <p class="center"><a href="music/pg_58_b.mp3">[Listen]</a></p>
+</div>
+
+<p><span class="pagenum"><a id="Page_59"></a>[Pg 59]</span>
+The second, “Gott soll gepriesen werden”—</p>
+
+<div class="figcenter">
+  <img src="images/pg_59_a.jpg" alt="" width="600" height="218" >
+  <p class="center"><a href="music/pg_59_a.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">is the song “Ti jabuka,” as sung in Velik-Borištov—</p>
+
+<div class="figcenter">
+  <img src="images/pg_59_b.jpg" alt="" width="600" height="176" >
+  <p class="center"><a href="music/pg_59_b.mp3">[Listen]</a></p>
+</div>
+
+<p>The third, “Allmächtiger, vor Dir im Staube,”—</p>
+
+<div class="figcenter">
+  <img src="images/pg_59_c.jpg" alt="" width="600" height="201" >
+  <p class="center"><a href="music/pg_59_c.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">begins remarkably like the Slavonian drinking song, “Draga moja
+gospodo.”<a id="FNanchor_28" href="#Footnote_28" class="fnanchor">[28]</a></p>
+
+<div class="figcenter">
+  <img src="images/pg_59_d.jpg" alt="" width="600" height="192" >
+  <p class="center"><a href="music/pg_59_d.mp3">[Listen]</a></p>
+</div>
+
+<p><span class="pagenum"><a id="Page_60"></a>[Pg 60]</span>
+The fourth, “O Vater, sieh vor Deinem Throne”—</p>
+
+<div class="figcenter">
+  <img src="images/pg_60_a.jpg" alt="" width="600" height="86" >
+  <p class="center"><a href="music/pg_60_a.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">may fairly be regarded as a variant of the Dalmatian
+song, “Jedna Ciganka”—</p>
+
+<div class="figcenter">
+  <img src="images/pg_60_b.jpg" alt="" width="600" height="101" >
+  <p class="center"><a href="music/pg_60_b.mp3">[Listen]</a></p>
+</div>
+
+<p>The fifth, “Betrachtet ihn in Schmerzen”—</p>
+
+<div class="figcenter">
+  <img src="images/pg_60_c.jpg" alt="" width="600" height="421" >
+  <p class="center"><a href="music/pg_60_c.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">is almost identical in both parts with the following
+Croatian melody:—</p>
+
+<div class="figcenter">
+  <img src="images/pg_60_d_61_a.jpg" alt="" width="600" height="409" >
+  <p class="center"><a href="music/pg_60_d_61_a.mp3">[Listen]</a></p>
+</div>
+
+<p><span class="pagenum"><a id="Page_61"></a>[Pg 61]</span>
+The sixth—“Nun ist das Lamm geschlachtet”—</p>
+
+<div class="figcenter">
+  <img src="images/pg_61_b.jpg" alt="" width="600" height="305" >
+  <p class="center"><a href="music/pg_61_b.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">is derived partly from two separate strains in
+the Croatian and Slavonian versions of a convivial chorus—“Vivla compagnija”—</p>
+
+<div class="figcenter">
+  <img src="images/pg_61_c.jpg" alt="" width="600" height="236" >
+  <p class="center"><a href="music/pg_61_c.mp3">[Listen]</a></p>
+
+  <img src="images/pg_61_d.jpg" alt="" width="600" height="253" >
+  <p class="center"><a href="music/pg_61_d.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent"><span class="pagenum"><a id="Page_62"></a>[Pg 62]</span>
+partly from a Croatian sacred song—“Stani gori gospodar.”</p>
+
+<div class="figcenter">
+  <img src="images/pg_62_a.jpg" alt="" width="600" height="101" >
+  <p class="center"><a href="music/pg_62_a.mp3">[Listen]</a></p>
+</div>
+
+<p>The seventh—“Dich wahres Oesterlamm”—which is the concluding phrase
+of the canticle for the Celebration,—</p>
+
+<div class="figcenter">
+  <img src="images/pg_62_b.jpg" alt="" width="600" height="205" >
+  <p class="center"><a href="music/pg_62_b.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">borrows its exact sequence and its curious halting rhythm from the
+Croatian “Miši prave svatove”—</p>
+
+<div class="figcenter">
+  <img src="images/pg_62_c.jpg" alt="" width="600" height="282" >
+  <p class="center"><a href="music/pg_62_c.mp3">[Listen]</a></p>
+</div>
+
+<p><span class="pagenum"><a id="Page_63"></a>[Pg 63]</span>
+Clearly, in Haydn’s vocabulary “popular” meant Slavonic.</p>
+
+<p>It may be objected that this example proves nothing. Grant that Haydn
+was living in a certain district, and that he was asked for once to
+write in a popular style; what more natural than that he should adapt
+himself to his surroundings, and use the idioms that he found in common
+currency? A man readily drops into dialect when he is addressing a
+rural audience, and does not become a countryman by seasoning his
+discourse with a few country proverbs and metaphors. This rejoinder
+would be of more effect if the “Mass” were an isolated phenomenon: it
+somewhat loses weight when we remember that the music only turns to
+Church use the tendencies that have already been noted in symphony and
+quartet. Still, our case would undoubtedly be stronger if we could find
+Haydn appealing, in the same tongue, to the Austrian Empire at large,
+and using the native Slavonic for some great political or ceremonial
+<span class="pagenum"><a id="Page_64"></a>[Pg 64]</span>
+occasion. Here, at any rate, is a test which we may reasonably regard
+as crucial, and which, if successfully applied, should go some way
+towards settling the question.</p>
+
+<p>Unfortunately, the Croatian melodies are not, as a rule, well suited
+for such a purpose. They are bright, sensitive, piquant, but they
+seldom rise to any high level of dignity or earnestness. They belong
+to a temper which is marked rather by feeling and imagination than by
+any sustained breadth of thought, and hence, while they enrich their
+own field of art with great beauty, there are certain frontiers which
+they rarely cross, and from which, if once crossed, they soon return.
+One limitation in particular will have been observed by every student.
+It frequently happens that a Croatian or Servian tune will begin with
+a fine phrase, and then fall to an anti-climax—either losing sight
+of its tonality, or wavering in its rhythm, or ending with a weak or
+commonplace cadence. In almost all the examples quoted above, it is the
+<span class="pagenum"><a id="Page_65"></a>[Pg 65]</span>
+opening of the tune which Haydn has borrowed; its conclusion he has
+nearly always improved or re-written.<a id="FNanchor_29" href="#Footnote_9" class="fnanchor">[29]</a> And the reasons that impelled
+him to this practice may be illustrated by the following variants, in
+all of which are apparent the same touch of inspiration, and the same
+weakness of development.</p>
+
+<p>(<i>a</i>) The song “Stal se jesem,” as sung in Marija Bistric<a id="FNanchor_30" href="#Footnote_30" class="fnanchor">[30]</a>—</p>
+
+<div class="figcenter">
+  <img src="images/pg_65.jpg" alt="" width="600" height="312" >
+  <p class="center"><a href="music/pg_65.mp3">[Listen]</a></p>
+</div>
+
+<p><span class="pagenum"><a id="Page_66"></a>[Pg 66]</span>
+(<i>b</i>) The same song as it appears in the district of S. Ivan Zeline—</p>
+
+<div class="figcenter">
+  <img src="images/pg_66_a.jpg" alt="" width="600" height="306" >
+  <p class="center"><a href="music/pg_66_a.mp3">[Listen]</a></p>
+</div>
+
+<p>(<i>c</i>) The same as it appears at Medjumur (Murinsel)—</p>
+
+<div class="figcenter">
+  <img src="images/pg_66_b.jpg" alt="" width="600" height="302" >
+  <p class="center"><a href="music/pg_66_b.mp3">[Listen]</a></p>
+</div>
+
+<p>In these versions the last four bars appear to have been loosely
+attached to the rest of tune; at any rate, they are often found, apart
+from the first phrase, in Croatian carols and drinking songs. Again,
+<span class="pagenum"><a id="Page_67"></a>[Pg 67]</span>
+among other districts there has been some rearrangement of the words,
+with corresponding changes in the music. Either the opening line is
+not repeated, which leads to the excision of the third bar, and a
+consequent alteration of cadence; <i>e.g.</i>—</p>
+
+<p>(<i>d</i>) Variant from Kolnov (near Oedenburg)—</p>
+
+<div class="figcenter">
+  <img src="images/pg_67_a.jpg" alt="" width="600" height="210" >
+  <p class="center"><a href="music/pg_67_a.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">or it is inserted again after the second, so as
+to give the stanza an alternation of masculine and feminine endings;
+<i>e.g.</i>—</p>
+
+<p>(e) Variant from Čembe—</p>
+
+<div class="figcenter">
+  <img src="images/pg_67_b.jpg" alt="" width="600" height="198" >
+  <p class="center"><a href="music/pg_67_b.mp3">[Listen]</a></p>
+</div>
+
+<p><span class="pagenum"><a id="Page_68"></a>[Pg 68]</span>
+The rest is easily divined. When in 1797 Haydn was commissioned to set
+the National Anthem, he must have had this tune before his eye, and
+have determined to use it as the pedestal of the <i>monumentum ære
+perennius</i> which his loyalty erected.<a id="FNanchor_31" href="#Footnote_31" class="fnanchor">[31]</a>
+And here a word may be said as to the manner in which the great tune
+appears to have been written. It was no momentary inspiration, no
+sudden impromptu that should come into existence at full growth; like
+most of Beethoven’s music, it was made carefully, and by deliberate
+weighing of alternatives. By a piece of singular good fortune, we are
+for once admitted to the master’s workshop, and allowed to take our
+lesson in melody by the observation of his practice.</p>
+
+<p>Now the second strain of the folk-tune is too short to fit the second
+<span class="pagenum"><a id="Page_69"></a>[Pg 69]</span>
+line of the poem; accordingly, Haydn began by extending its cadence,
+and instead of—</p>
+
+<div class="figcenter">
+  <img src="images/pg_69_a.jpg" alt="" width="500" height="80" >
+  <p class="center"><a href="music/pg_69_a.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">wrote—</p>
+
+<div class="figcenter">
+  <img src="images/pg_69_b.jpg" alt="" width="500" height="80" >
+  <p class="center"><a href="music/pg_69_b.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">following it with repeat-marks, after the common
+method of primary form. Two other changes explain themselves. The
+measure is dignified by the broader time-signature, and the accent
+shifted from arsis to thesis by the rearrangement of the bars.
+Otherwise, in the first half of the stanza the folk-tune remains
+unaltered.</p>
+
+<p>But for the second half it was manifestly insufficient. Both the
+possible variants are too trivial, and one too brief, to afford the
+requisite climax. As a natural consequence, Haydn discarded both, and
+<span class="pagenum"><a id="Page_70"></a>[Pg 70]</span>
+proceeded to supply their place with two original strains,
+which in the Autograph sketch<a id="FNanchor_32" href="#Footnote_32" class="fnanchor">[32]</a>
+run as follows:—
+<span class="pagenum"><a id="Page_71"></a>[Pg 71]</span></p>
+
+<div class="figcenter">
+  <img src="images/pg_71.jpg" alt="" width="600" height="349" >
+  <p class="center"><a href="music/pg_71.mp3">[Listen]</a></p>
+</div>
+
+<p>Still, he was dissatisfied with the result, and it is easy to suggest
+the reason. In the former of these two strains there is a passage which
+carries tonic harmony—out of place at this stage of the tune—and
+its cadence, moreover, rhymes awkwardly with that of the half-stanza.
+The latter of the two comes down from its point of stress with a fine
+sweeping movement, but, three bars from the end, breaks its melodic
+curve into two distinct pieces, and so loses continuity of line. Both
+were accordingly corrected, one on the same page, the bottom stave of
+which bears, in hasty manuscript, the amended form—
+<span class="pagenum"><a id="Page_72"></a>[Pg 72]</span></p>
+
+<div class="figcenter">
+  <img src="images/pg_72.jpg" alt="" width="600" height="90" >
+  <p class="center"><a href="music/pg_72.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">the other, with a few more minute alterations, at
+a later period of the work. And thus, of such diverse metal as Cellini
+cast his “Perseus,” did Haydn beat out the melody by which he has given
+voice to a nation’s patriotism.</p>
+
+<p>It is to be hoped that these examples will not encourage any reader to
+pursue Haydn with the cry of plagiarist. No accusation could be more
+unfounded or more unreasonable. He poached upon no man’s preserve,
+he robbed no brother-artist, he simply ennobled those peasant-tunes
+with the thought and expression of which he was most nearly in accord.
+The whole extent of his indebtedness is at most an occasional melody,
+and is often but a single phrase; the treatment, the setting, the
+workmanship belong as truly to him as Faust to Goethe, or Cymbeline to
+Shakespeare. The master who has written a hundred and twenty first-rate
+<span class="pagenum"><a id="Page_73"></a>[Pg 73]</span>
+symphonies, and eighty-three first-rate quartets, may surely claim the
+right to take his wealth where he finds it; and if we are churlish
+enough to deny this, at least we may allow him the privilege of
+speaking in his native tongue. To Haydn, the folk-tunes were little
+more than the words of his accustomed speech, hardly obscured when
+the Church asserted her contrapuntal dignity, and reappearing in
+full significance when he returned to the untrammelled orchestra and
+the freedom of the four magic strings. It is more important to note
+how closely his special melodic gift is in sympathy with that of his
+people. Many of the tunes quoted above are among those which a critic
+would select as especially characteristic: there are literally hundreds
+of his invention by which, in a more or less degree, the same qualities
+are exhibited. No doubt he was not only the child of his nation, he
+had his own personality, his own imaginative force, his own message to
+deliver in the ears of the world. But through all these the national
+<span class="pagenum"><a id="Page_74"></a>[Pg 74]</span>
+element runs as a determining thread. That “les grands artistes n’ont
+pas de patrie” is a sentence abundantly refuted by its very author; it
+assuredly finds no support in the life of the Croatian peasant who has
+made immortal the melodies of his race.</p>
+
+<p>A new aspect of the question has been brought into prominence by
+recent history. The course of policy pursued in our own day by the
+Austrian Government is tending to reverse the relative importance of
+the Croatian colony and of the mother country from which it sprang. On
+the one hand, the central provinces are being steadily Germanised, the
+Slavonic language is beginning to die out, the Slavonic blood to be
+crossed by intermixture, and though yet the change is only in process,
+there is no lack of indication that it is operative. Along the western
+bank of the Leitha, German is now the prevailing speech, along the
+eastern bank it is disputing the palm with Hungarian, and between them
+the Slav, for all his tenacity, will some day be dislodged or absorbed.
+<span class="pagenum"><a id="Page_75"></a>[Pg 75]</span>
+Hardly any inhabitant speaks of Požun now; the name is either
+Pozsony or Pressburg; Liesing has almost forgotten that it was once
+Lešnik, and though Oedenburg<a id="FNanchor_33" href="#Footnote_33" class="fnanchor">[33]</a>
+still remains as a fortress, it is becoming more and more isolated as
+the years advance. But, on the other hand, a wider range of opportunity
+is being opened in Croatia proper. The impulse towards national life,
+started as we have already seen by Ljudevit Gaj, is being wisely
+fostered and encouraged by Imperial patronage; and Agram, which a
+century ago was a little country town, is now assuming the state and
+dignity of a capital. The University, founded in 1874, has already done
+much for the study of art and letters; the old market-place has become
+a fine square, with an opera-house in the centre; the waste ground
+to the south has been laid out in public gardens, and enclosed with
+<span class="pagenum"><a id="Page_76"></a>[Pg 76]</span>
+galleries and museums. It is
+natural that the present race should follow these changes with keen
+enthusiasm; and should look forward eagerly and confidently to the days
+of coming greatness. Nor even to a stranger are the evidences lacking.
+The tone may be somewhat Chauvinist, the self-gratulation somewhat
+indiscriminate, the record of present achievement a little wanting in
+distinction; but as yet the movement is new, the resources are new,
+the whole field has to be contested step by step. It would be idle to
+expect another Haydn at present; the line has been broken, and must
+rally before it can advance. Enough for the moment that there are force
+and impetus and courage, that there is active and restless ability,
+that there is an unswerving determination to win the day. Who knows in what
+recruit’s knapsack the bâton of the field-marshal may be lying hidden?</p>
+
+<p>For in all the music of this century there is no phenomenon more
+remarkable than the steady progress of the Slavonic race. As early as
+<span class="pagenum"><a id="Page_77"></a>[Pg 77]</span>
+1818 an English critic was far-sighted enough to predict the advent of
+Russia,<a id="FNanchor_34" href="#Footnote_34" class="fnanchor">[34]</a>
+and though his readers never lived to see the presage fulfilled, though
+in his generation there appeared no greater name than that of Glinka,
+yet our own day has verified his words beyond the possibility of cavil.
+There may be some difference of opinion about Rubinstein, there can be
+none about Borodin or Tschaikowsky, and the traditions which they set
+are being ably followed by a whole school of younger composers. Toward
+<span class="pagenum"><a id="Page_78"></a>[Pg 78]</span>
+the middle of the century came Chopin, whose chief ambition, as he
+himself said, was “to be the Uhland of his country,” and whose chief
+work was to stamp with the impress of a classic his national strains of
+polonaise and mazurka. Some thirty years ago Smetana’s brilliant comedy
+laid the foundation on which Dvořák has built, and rescued from disuse
+and oblivion the folksongs of Bohemia. It is not without interest that
+we see another Slavonic nation re-entering the field. In one sense it
+was the leader of them all, in another it is the latest accession to
+their ranks, and its fortunes, as it tries to regain a lost position,
+should be watched by us not only with encouragement, but with close and
+intimate sympathy.</p>
+
+<p>For, <i>de nobis fabula narratur</i>. Western Europe also knows of a
+land which was once a leader in musical art, which forewent its trust,
+which suffered its voice to be silenced, which allowed its musicians to
+bid for popularity by adopting foreign names and foreign methods, which
+is now striving, with better opportunities than any Slavonic nation can
+<span class="pagenum"><a id="Page_79"></a>[Pg 79]</span>
+possess, to recover the old ground, and recall the forgotten message.
+If we disdain the comparison we may learn humility by reading the
+estimate in which we have long been held by our neighbours. “English
+music,” says a recent German historian, “may be said to end with
+Purcell”; “English art,” say our French critics, “has long degenerated
+into imitation”; and though our present leaders are nobly refuting the
+charge, there is still with us too much of that cosmopolitan temper
+which is among the most insidious of our enemies. No doubt times are
+improving. In Leeds, in Birmingham, in Bristol, even in London, the
+Englishman may get a hearing, though unless he write Royalty ballads he
+will hardly find a publisher. But his audience is not yet attuned into
+proper sympathy with his work. We still judge too much by reference to
+alien ideals, we are still too indifferent to our own natural language,
+and our own natural cast of thought. And, until we shake off this
+indifference and learn to extend our patriotism to our art, we shall
+never resume our place as a great musical nation.
+<span class="pagenum"><a id="Page_80"></a>[Pg 80]</span></p>
+
+<p>There is no need that we should offer a less cordial welcome to our
+foreign visitors, or a less cordial recognition of the immense service
+that they have done. “Was macht dieser Fremde hier?” is not patriotism,
+but discourtesy, a mark of the weakness which fears to meet the world
+frankly upon equal terms. At the same time we have no right either to
+neglect or to depreciate our own. A great artistic school is not built
+in a single moment or in a single generation; the work is long, heavy,
+difficult; it is easily discouraged, it is easily retarded, it needs
+all the care and diligence that it can command. And there is one way,
+and one only, in which we can bring it to a successful issue. Let us
+cut our timber from our own forests, let us quarry our stone from the
+bed-rock of our own nation, and then let our master-builders deal with
+the matter as their genius shall determine.</p>
+
+<p>A most hopeful sign is the revival of interest in our national
+melodies. To the artists who have collected them, to the artists who
+<span class="pagenum"><a id="Page_81"></a>[Pg 81]</span>
+are making them familiar, our cordial gratitude is due. But it is not
+enough to have them, we must use them; and it is not enough to use
+them, we must learn how to catch their spirit. Haydn had a far slighter
+material than ours, yet he could use it to a purpose which will be
+remembered when all our exotic romances are forgotten. And now that
+more than one English master is showing us the way, we have no excuse,
+we have no pretext for withholding our allegiance any longer.</p>
+
+<p>It is now some years since a few English writers began to advocate the
+return to nationalism. Since then, much, no doubt, has been done, but
+much still remains to do, and to us hearers a great part of the reform
+is entrusted. We have listened to foreign tongues until our own sounds
+odd and unfamiliar. We have sat so long at Trimalchio’s banquet that
+we have no appetite left for our native fare. Extremes of passion,
+extremes of languor, inordinate appeals to sense, all these are alien
+from our national temper, and we are growing surfeited with them until
+<span class="pagenum"><a id="Page_82"></a>[Pg 82]</span>
+our taste is spoiled and our palate vitiated. It is just the same in
+the world of letters. “No one reads Scott,” says one critic; “No one
+wants Shakespeare,” says another; “give us d’Annunzio and Sudermann and
+the Immoral Philosophy of Friedrich Nietzsche.” Fortunately English
+ethics and English literature may be left to look after themselves;
+they have both a continuity of tradition which will prevent them from
+falling very far askew. But our art of music is being restored from the
+heaps of ruin into which it was laid two centuries ago, and it is the
+business of all who care for art or country to lend a hand. At least we
+might try to discover what English music has to say, and estimate our
+composers according to their capacity for saying it.</p>
+
+<p>This position is strengthened by all evidence of musical history.
+The same hand which made Germany a people enriched her with the
+“Marseillaise of the Reformation,” and so founded the long dynasty of
+<span class="pagenum"><a id="Page_83"></a>[Pg 83]</span>
+her great composers. Art in France was at its lowest, when the chief
+occupation of Paris was to dispute between the claims of the Bavarian
+Gluck and the Italian Piccinni. Italy herself declined as she lost her
+national character, the Slavonic peoples have advanced as they have
+reasserted theirs. And what is true of nations is equally true of their
+leaders. “The greatest genius,” says Emerson, “is the most indebted
+man”; the man, that is, who can turn to the most noble and enduring use
+the traditions of his age and country. So it was with Haydn. Nothing
+can be more false than to regard him as merely a Court musician,
+writing with ready and facile talent the <i>pièces d’occasion</i>
+that were needed for the theatre or the reception-room. His life at
+Eisenstadt gave him opportunity such as no composer had ever before
+enjoyed, but the patronage was too enlightened and the character too
+strong to be satisfied with work that was mannered or artificial. Under
+the famous “livery of blue and silver” there beat the heart of a rustic
+poet, full of kindliness, of drollery, of good-fellowship, of the love
+<span class="pagenum"><a id="Page_84"></a>[Pg 84]</span>
+of children and animals. His genius, trained by years of assiduous
+labour, gave him a complete mastery over the inherited resources of
+his art, his imagination extended them with fresh discoveries and
+inventions. But throughout the whole his favourite themes are pastoral,
+songs of the shepherd and the harvester, songs of country courtship,
+songs of the vintage feast and the jovial holiday. It is little wonder
+that he should speak in the language of his people, or recall the
+phrases that had been familiar from his childhood.</p>
+
+<p>Yet it is no patois that he uses, but the speech of a whole nation; a
+living force that spreads wide and reaches to distant boundaries. Nor
+is he great because he has chosen this or that topic, this or that form
+of utterance; it is because he is great that there was no choice in the
+matter. He could not have written of set habit in the German idiom; he
+was Slav by race and Slav by temper, and his music is too genuine to
+present itself in foreign guise. It is from this point of view that we
+<span class="pagenum"><a id="Page_85"></a>[Pg 85]</span>
+should understand him; not by loosely classifying him among a people
+with whom he had little in common, but by regarding him as the true
+embodiment of his own national spirit. The Greek proverb condemns a
+man of two tongues: through the world of art the condemnation is still
+in force, and at least some measure of it should fall on the ingenious
+critics who call patriotism parochial, and justify their epithet by
+obliterating frontiers.</p>
+
+<hr class="chap x-ebookmaker-drop">
+<div class="chapter">
+<p><span class="pagenum"><a id="Page_86"></a>[Pg 86]</span></p>
+<h2 class="nobreak">APPENDICES.</h2>
+</div>
+<p><span class="pagenum"><a id="Page_87"></a>[Pg 87]</span></p>
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="APPENDIX_A">APPENDIX A.</h2>
+</div>
+
+<p class="f120"><i>Croatian Musicians</i>, 1835-1848.</p>
+
+<table class="spb1">
+   <tbody><tr>
+      <td class="tdl_top" rowspan="6">(1) <i>Composers</i>:—</td>
+      <td class="tdl">Lisinski.</td>
+      <td class="tdl_ws2">Čačković.</td>
+   </tr><tr>
+      <td class="tdl">Livadić.</td>
+      <td class="tdl_ws2">Štoos.</td>
+   </tr><tr>
+      <td class="tdl">Wiesner.</td>
+      <td class="tdl_ws2">Mašek.</td>
+   </tr><tr>
+      <td class="tdl">Rusan.</td>
+      <td class="tdl_ws2">Baron Prandau.</td>
+   </tr><tr>
+      <td class="tdl">Pintavić.</td>
+      <td class="tdl_ws2">F. von Suppé.</td>
+   </tr><tr>
+      <td class="tdl">Jaić.</td>
+      <td class="tdl_ws2">&nbsp;</td>
+   </tr><tr>
+      <td class="tdc" colspan="3">&nbsp;</td>
+   </tr><tr>
+      <td class="tdl_top" rowspan="2">(2) <i>Singers</i>:—</td>
+      <td class="tdl">Countess Rubido.</td>
+      <td class="tdl_ws2">Stazić.</td>
+   </tr><tr>
+      <td class="tdl">Štriga.</td>
+      <td class="tdl_ws2">Ledenig.</td>
+   </tr><tr>
+      <td class="tdc" colspan="3">&nbsp;</td>
+   </tr><tr>
+      <td class="tdl">(3) <i>Virtuosi, &amp;c.</i>:—</td>
+      <td class="tdl">Ivan Padovec.</td>
+      <td class="tdl_ws2">L. A. Zellner.</td>
+   </tr>
+ </tbody>
+</table>
+
+<div class="blockquot">
+<p class="no-indent">N.B.—The following rules of pronunciation should be observed.</p>
+
+<p class="no-indent">r (as a semi-vowel) carries a very short vowel sound before the
+consonant. Brlog = Berlog made as near a monosyllable as possible.</p>
+
+<p class="neg-indent">c = tz. Zajc is pronounced Zaitz.</p>
+
+<p class="neg-indent">č = ch soft (like ch in Church).</p>
+
+<p class="neg-indent">ć = ty in which the y is a consonant (as it is for instance in the word
+“you”). The sound is half-way between the “te” in “righteous” and the
+“tch” in “wretched.”</p>
+
+<p><span class="pagenum"><a id="Page_88"></a>[Pg 88]</span></p>
+
+<p class="neg-indent">š = sch or sh. Pušovec
+         (<a href="#APPENDIX_C">see Appendix C</a>) is pronounced Pushovetz.</p>
+
+<p class="neg-indent">ž = the French j, as in jour.</p>
+
+<p class="neg-indent">lj and nj are like the gli and gn in figlio, campagna.</p>
+
+<p class="no-indent">The other letters are, roughly speaking, pronounced as in German,
+except z, which = s in sehr; and s, which = ss in Strasse.</p>
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="APPENDIX_B">APPENDIX B.</h2>
+</div>
+
+<p class="f120"><i>Croatian Musicians</i>, 1848-1880.</p>
+
+<table class="spb1">
+   <tbody><tr>
+      <td class="tdl_top" rowspan="8">(1) <i>Composers</i>:—</td>
+      <td class="tdl">Rihar.‡</td>
+      <td class="tdl_ws2">G. Eisenhut.</td>
+   </tr><tr>
+      <td class="tdl">Vilhar.‡</td>
+      <td class="tdl_ws2">A. Mihalović .</td>
+   </tr><tr>
+      <td class="tdl">Fleišman.‡</td>
+      <td class="tdl_ws2">Kociančić ‡</td>
+   </tr><tr>
+      <td class="tdl">Köck.</td>
+      <td class="tdl_ws2">Leban.‡</td>
+   </tr><tr>
+      <td class="tdl">Epstein.</td>
+      <td class="tdl_ws2">Valenta.‡</td>
+   </tr><tr>
+      <td class="tdl">Zajc.</td>
+      <td class="tdl_ws2">Slava Atanasijevic.</td>
+   </tr><tr>
+      <td class="tdl">Strmic.</td>
+      <td class="tdl_ws2">Faller.</td>
+   </tr><tr>
+      <td class="tdl">Just.</td>
+      <td class="tdl_ws2">Kuhač.</td>
+   </tr><tr>
+      <td class="tdc" colspan="3">&nbsp;</td>
+   </tr><tr>
+      <td class="tdl_top" rowspan="7">(2) <i>Singers</i>:—</td>
+      <td class="tdl">Ema Murska.</td>
+      <td class="tdl_ws2">Grbić.</td>
+   </tr><tr>
+      <td class="tdl">Matilda Marlov.</td>
+      <td class="tdl_ws2">Kašman.</td>
+   </tr><tr>
+      <td class="tdl">Matilda Mallinger.</td>
+      <td class="tdl_ws2">Nolli‡</td>
+   </tr><tr>
+      <td class="tdl">Ema Vizjak.</td>
+      <td class="tdl_ws2">Maria Kotas.</td>
+   </tr><tr>
+      <td class="tdl">Irma Terputec</td>
+      <td class="tdl_ws2">Maria Pikril.</td>
+   </tr><tr>
+      <td class="tdl">Mazoleni.</td>
+      <td class="tdl_ws2">Maca Matačić.</td>
+   </tr><tr>
+      <td class="tdc" colspan="2">Sofia Kramberger.&emsp;&nbsp;</td>
+   </tr><tr>
+      <td class="tdl_ws2" colspan="3">&nbsp;&emsp;‡ Slovenian.
+                 <span class="pagenum"><a id="Page_89"></a>[Pg 89]</span></td>
+   </tr><tr>
+      <td class="tdc" colspan="3">&nbsp;</td>
+   </tr><tr>
+      <td class="tdl_top" rowspan="5">(3) <i>Virtuosi</i>:—</td>
+      <td class="tdl">Šteiner.</td>
+      <td class="tdl_ws2">Petrié.</td>
+   </tr><tr>
+      <td class="tdl">Hummel.</td>
+      <td class="tdl_ws2">Ivan Mihalović.</td>
+   </tr><tr>
+      <td class="tdl">Ludmilla Veizer.</td>
+      <td class="tdl_ws2">F. Krežma.</td>
+   </tr><tr>
+      <td class="tdl">Josif Eisenhut.</td>
+      <td class="tdl_ws2">Anka Krežma.</td>
+   </tr><tr>
+      <td class="tdl">Ciol.</td>
+      <td class="tdl_ws2">Kolander.</td>
+   </tr><tr>
+      <td class="tdc" colspan="3">&nbsp;</td>
+   </tr><tr>
+      <td class="tdl" colspan="3">(4) <i>Conductors, Professors, &amp;c.</i>:—</td>
+   </tr><tr>
+      <td class="tdl" rowspan="4">&nbsp;</td>
+      <td class="tdl">Kukulević.</td>
+      <td class="tdl_ws2">Antun Švarc<a id="FNanchor_35" href="#Footnote_35" class="fnanchor">[35]</a>.</td>
+   </tr><tr>
+      <td class="tdl">B. Ipavec.</td>
+      <td class="tdl_ws2">Martin Jenko.</td>
+   </tr><tr>
+      <td class="tdl">G. Ipavec.</td>
+      <td class="tdl_ws2">Adolf Schwartz</td>
+   </tr><tr>
+      <td class="tdc" colspan="2">Ida Wimberger.</td>
+   </tr>
+ </tbody>
+</table>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="APPENDIX_C">APPENDIX C.</h2>
+</div>
+
+<p class="f120"><i>Croatian Names in the Pusterthal<br> and Neighbourhood</i></p>
+
+<table class="spb1">
+   <tbody><tr>
+      <td class="tdr" colspan="2"><i>Germanised form</i>:—&emsp;&nbsp;</td>
+      <td class="tdr" colspan="2"><i>Croatian form</i>:—</td>
+   </tr><tr>
+      <td class="tdl" rowspan="31"><span class="ws2">&nbsp;</span></td>
+      <td class="tdl">Aegrathal.</td>
+      <td class="tdl" rowspan="31"><span class="ws2">&nbsp;</span></td>
+      <td class="tdl">Ograda.</td>
+   </tr><tr>
+      <td class="tdl">Arvig (?).</td>
+      <td class="tdl">Oranik.</td>
+   </tr><tr>
+      <td class="tdl">Berlogaz.</td>
+      <td class="tdl">Brlog.</td>
+   </tr><tr>
+      <td class="tdl">Bschwoitz.</td>
+      <td class="tdl">Pušovec.</td>
+   </tr><tr>
+      <td class="tdl">Dolnitz.</td>
+      <td class="tdl">Dolina.</td>
+   </tr><tr>
+      <td class="tdl">Frutscherthal.</td>
+      <td class="tdl">Vručidol.</td>
+   </tr><tr>
+      <td class="tdl">Garnitza.</td>
+      <td class="tdl">Krnica.</td>
+   </tr><tr>
+      <td class="tdl">Glanz.</td>
+      <td class="tdl">Klanjec.</td>
+   </tr><tr>
+      <td class="tdl">Glinz (Linz).</td>
+      <td class="tdl">Glinica.
+                   <span class="pagenum"><a id="Page_90"></a>[Pg 90]</span></td>
+   </tr><tr>
+      <td class="tdl">Gollisel.</td>
+      <td class="tdl">Goloselo.</td>
+   </tr><tr>
+      <td class="tdl">Gruschgize.</td>
+      <td class="tdl">Kruškica.</td>
+   </tr><tr>
+      <td class="tdl">Kollnig.</td>
+      <td class="tdl">Kolnik.</td>
+   </tr><tr>
+      <td class="tdl">Kräll.</td>
+      <td class="tdl">Kralj.</td>
+   </tr><tr>
+      <td class="tdl">Libisel.</td>
+      <td class="tdl">Ljubisel.</td>
+   </tr><tr>
+      <td class="tdl">Lasser.</td>
+      <td class="tdl">Lesar.</td>
+   </tr><tr>
+      <td class="tdl">Lessing.</td>
+      <td class="tdl">Lešnik.</td>
+   </tr><tr>
+      <td class="tdl">Motschenboden.</td>
+      <td class="tdl">Mocva.</td>
+   </tr><tr>
+      <td class="tdl">Pedoll.</td>
+      <td class="tdl">Podolje.</td>
+   </tr><tr>
+      <td class="tdl">Petsch.</td>
+      <td class="tdl">Peč (Pešti).</td>
+   </tr><tr>
+      <td class="tdl">Plötsch.</td>
+      <td class="tdl">Ploca.</td>
+   </tr><tr>
+      <td class="tdl">Polliz.</td>
+      <td class="tdl">Polica.</td>
+   </tr><tr>
+      <td class="tdl">Pusterthal.</td>
+      <td class="tdl">Pustodol.</td>
+   </tr><tr>
+      <td class="tdl">Rudenek.</td>
+      <td class="tdl">Rudnik.</td>
+   </tr><tr>
+      <td class="tdl">Stoanitzbrunn.</td>
+      <td class="tdl">Studenac.</td>
+   </tr><tr>
+      <td class="tdl">Stollizen.</td>
+      <td class="tdl">Stolica.</td>
+   </tr><tr>
+      <td class="tdl">Tragen.</td>
+      <td class="tdl">Draga.</td>
+   </tr><tr>
+      <td class="tdl">Tristach.</td>
+      <td class="tdl">Trstje.</td>
+   </tr><tr>
+      <td class="tdl">Villgraten.</td>
+      <td class="tdl">Velegrad.</td>
+   </tr><tr>
+      <td class="tdl">Zabemig.</td>
+      <td class="tdl">Zavrhnik.</td>
+   </tr><tr>
+      <td class="tdl">Zelzach.</td>
+      <td class="tdl">Selca.</td>
+   </tr><tr>
+      <td class="tdl">Zuchepoll.</td>
+      <td class="tdl">Suhopolje.</td>
+   </tr>
+ </tbody>
+</table>
+
+<div class="blockquot">
+<p class="neg-indent"><b><span class="smcap">Note</span></b>.—For similar
+examples in other parts of Austria, see Kämmel’s “Die Anfänge deutschen
+Lebens in Oesterreich.”</p>
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="APPENDIX_D">APPENDIX D.</h2>
+</div>
+
+<p class="f120"><i>Traces of Croat Population in the District near Pressburg.</i></p>
+
+<p><span class="pagenum"><a id="Page_91"></a>[Pg 91]</span></p>
+<p>The following towns and villages have possessed a Croat population,
+either predominant or at least considerable:—</p>
+
+<table class="spb1">
+   <tbody><tr>
+      <td class="tdl">Maiersdorf.</td>
+      <td class="tdc" rowspan="17"><span class="ws2">&nbsp;</span></td>
+      <td class="tdl">Wildungsmauer.</td>
+   </tr><tr>
+      <td class="tdl">Zverndorf.</td>
+      <td class="tdl">Kaglor.</td>
+   </tr><tr>
+      <td class="tdl">Pangort.</td>
+      <td class="tdl">Pišelsdorf.</td>
+   </tr><tr>
+      <td class="tdl">Marchegg.</td>
+      <td class="tdl">Mannersdorf.</td>
+   </tr><tr>
+      <td class="tdl">Bratisey.</td>
+      <td class="tdl">Au (Cindrov).</td>
+   </tr><tr>
+      <td class="tdl">Senfeld.</td>
+      <td class="tdl">Hof (Cimov).</td>
+   </tr><tr>
+      <td class="tdl">Hlohovac.</td>
+      <td class="tdl">Landeck.</td>
+   </tr><tr>
+      <td class="tdl">Siebenbrunn.</td>
+      <td class="tdl">Kroatisch Wagram</td>
+   </tr><tr>
+      <td class="tdl">Horisey.</td>
+      <td class="tdl_ws1">(Ogran hrvatski).</td>
+   </tr><tr>
+      <td class="tdl">Štrandorf.</td>
+      <td class="tdl">Frama.</td>
+   </tr><tr>
+      <td class="tdl">Poturno.</td>
+      <td class="tdl">Fuchspichl</td>
+   </tr><tr>
+      <td class="tdl">Limisdorf.</td>
+      <td class="tdl_ws1">(Fukšpil).</td>
+   </tr><tr>
+      <td class="tdl">Andlersdorf</td>
+      <td class="tdl">Ort.</td>
+   </tr><tr>
+      <td class="tdl_ws1">(Razvitnjak).</td>
+      <td class="tdl">Bratštatin.</td>
+   </tr><tr>
+      <td class="tdl">Guštatin.</td>
+      <td class="tdl">Lower Siebenbrunn.</td>
+   </tr><tr>
+      <td class="tdl">Petronel.</td>
+      <td class="tdl">Kroatisch Haslern</td>
+   </tr><tr>
+      <td class="tdl">Rohrau (Trstnik).</td>
+      <td class="tdl_ws1">(Hazlor hrvatski).</td>
+   </tr><tr>
+      <td class="tdc" colspan="3">&nbsp;</td>
+   </tr><tr>
+      <td class="tdl" colspan="3">Besides the whole district round Eisenstadt,</td>
+   </tr><tr>
+      <td class="tdl_ws1" colspan="3">Oedenburg, and the Neusiedler See.</td>
+   </tr>
+ </tbody>
+</table>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum"><a id="Page_92"></a>[Pg 92]</span></p>
+<h2 class="nobreak" id="APPENDIX_E">APPENDIX E.</h2>
+</div>
+
+<p class="f120"><i>Musicians born in Pressburg and<br> its Neighbourhood.</i></p>
+
+<ul class="index">
+<li class="isub2">‡Hans Neusiedler, Lutenist, born 1563 near the Neusiedler See.</li>
+<li class="isub2">‡Veit Bach, grandfather of J. S. Bach, born about 1580 at Pressburg.</li>
+<li class="isub2">‡Andreas Rauch, organist and composer, born about 1590 at Pottendorf.</li>
+<li class="isub2">‡Samuel Bockshorn (Capricornus), conductor, born in 1629 at Pressburg.</li>
+<li class="isub2">‡J. S. Kusser (Couser), composer, born in 1657 at Pressburg.</li>
+<li class="isub2">‡Joseph Haydn, born in 1732 at Rohrau.</li>
+<li class="isub2">‡Michael Haydn, born in 1737 at Rohrau.</li>
+<li class="isub2">‡Johann Evangelist Haydn, born in 1743 at Rohrau.</li>
+<li class="isub2">‡Matthias Kamiensky (Kamenar), composer, born in 1734 at Oedenburg.</li>
+<li class="isub2">Theodor Lotz, musical instrument maker, born about 1740 at Pressburg.</li>
+<li class="isub2">‡Anton Zimmermann, composer, born in 1741 at Pressburg.</li>
+<li class="isub2">‡N. Hadrava, Lutenist, born in 1750 near Pressburg.</li>
+<li class="isub2">‡G. Druschetzky (Druzechi), composer, born about 1760 at Pressburg. (?)</li>
+<li class="isub2">Jacob Hyrtl, oboe-player in the Esterházy orchestra, born about 1760 at Eisenstadt.</li>
+<li class="isub2">Joseph Weigel (Weigl), composer, born in 1766 at Eisenstadt.</li>
+<li class="isub2">‡Ivan Bihari, violinist and composer, born in 1769 at Great Abony.</li>
+<li class="isub2">‡Stephan Koch, musical instrument maker, born in 1772 at Vesprim.</li>
+<li class="isub2">‡Ivan Fuss, composer, born in 1777 at Tolnau.
+                         <span class="pagenum"><a id="Page_93"></a>[Pg 93]</span></li>
+<li class="isub2">‡Johann Nepomuk Hummel, born in 1778 at Pressburg.</li>
+<li class="isub2">‡Joseph Blahak, composer, born in 1779 at Raggersdorf.</li>
+<li class="isub2">‡Ivan Fuchs, Kapellmeister to Prince Esterházy, born in 1780 at Eisenstadt.</li>
+<li class="isub2">Peter Lichtenthal, composer, born in 1780 at Pressburg.</li>
+<li class="isub2">Count Thadeus Amadé, pianist, born in 1783 at Pressburg.</li>
+<li class="isub2">‡Adolf Müller, composer, born in 1802 at Tolnau.</li>
+<li class="isub2">‡Joseph Wurda, singer, born in 1807 at Gjur (Raab).</li>
+<li class="isub2">‡Friedrich Fischer, singer, born in 1809 at Pressburg.</li>
+<li class="isub2"><a id="FNanchor_36" href="#Footnote_36" class="fnanchor">[36]</a>Franz
+                  Liszt, born in 1811 at Raiding (Rudnik).</li>
+<li class="isub2">Michael Hauser, violinist, born in 1822 at Pressburg.</li>
+<li class="isub2">‡Ferdinand Kletzer, violoncellist, born in 1830 at Oedenburg. (?)</li>
+<li class="isub2">Joseph Joachim, born in 1831 at Kitsee.</li>
+<li class="isub2">Carl Goldmark, born in 1832 at Keszthelyn.</li>
+<li class="isub2">Ludwig Straus, born in 1845 at Pressburg.</li>
+<li class="isub2">Leopold Auer, violinist, born in 1845 at Vesprim.</li>
+<li class="isub2">Charlotte Debner, violinist, born in 1846 at Kitsee.</li>
+<li class="isub1">&nbsp;</li>
+<li class="isub1">‡ Probably Croatian.</li>
+</ul>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum"><a id="Page_94"></a>[Pg 94]</span></p>
+<h2 class="nobreak" id="APPENDIX_F">APPENDIX F.</h2>
+</div>
+
+<p class="f120"><i>Names of Croatian Musicians<br> Translated or Corrupted.</i></p>
+
+<table class="spb1">
+   <tbody><tr>
+      <td class="tdl_top" rowspan="13">(<i>a</i>) &nbsp;</td>
+      <td class="tdl" colspan="2"><i>Translated</i> (equivalent of meaning: conjectural).</td>
+   </tr><tr>
+      <td class="tdl"><i>Current Name.</i></td>
+      <td class="tdl"><i>Croatian Name.</i></td>
+   </tr><tr>
+      <td class="tdl_ws1">Neusiedler.</td>
+      <td class="tdl_ws1">Novosel.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Bockshorn.</td>
+      <td class="tdl_ws1">Ročić.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Bach.</td>
+      <td class="tdl_ws1">Potočić or Potočniak.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Rauch.</td>
+      <td class="tdl_ws1">Dimić or Dimović.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Zimmermann.</td>
+      <td class="tdl_ws1">Tesar, or Tesarević.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Koch.</td>
+      <td class="tdl_ws1">Kuhač, Kuhačević, or Kuharević.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Fuss.</td>
+      <td class="tdl_ws1">Nogić, or Nogavac.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Hummel.</td>
+      <td class="tdl_ws1">Bumbarević or Ćmeliak.<a id="FNanchor_37" href="#Footnote_37" class="fnanchor">[37]</a></td>
+   </tr><tr>
+      <td class="tdl_ws1">Fuchs.</td>
+      <td class="tdl_ws1">Lissa, Lisica, or Lisinski.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Müller.</td>
+      <td class="tdl_ws1">Mlinar or Mlinarić.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Fischer.</td>
+      <td class="tdl_ws1">Ribar or Ribarić.</td>
+   </tr><tr>
+      <td class="tdc" colspan="3">&nbsp;</td>
+   </tr><tr>
+      <td class="tdl_top" rowspan="34">(<i>b</i>) &nbsp;</td>
+      <td class="tdl" colspan="2"><i>Corrupted</i> (adaptation of sound: reasonably certain).</td>
+   </tr><tr>
+      <td class="tdl_ws1">Bulgarelli.</td>
+      <td class="tdl_ws1">Bugarin.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Bona.</td>
+      <td class="tdl_ws1">Bunić.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Brusa.</td>
+      <td class="tdl_ws1">Brusić.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Draghi.</td>
+      <td class="tdl_ws1">Dragi.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Dragonetti.</td>
+      <td class="tdl_ws1">Draganić.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Ferrich.</td>
+      <td class="tdl_ws1">Ferić.
+                <span class="pagenum"><a id="Page_95"></a>[Pg 95]</span></td>
+   </tr><tr>
+      <td class="tdl_ws1">Gerlo.</td>
+      <td class="tdl_ws1">Grlo.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Giornovichi.</td>
+      <td class="tdl_ws1">Jarnović.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Jelich or Jael.</td>
+      <td class="tdl_ws1">Jelić.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Kresnik.</td>
+      <td class="tdl_ws1">Gresnik.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Henkel.</td>
+      <td class="tdl_ws1">Kengelović.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Calinde.</td>
+      <td class="tdl_ws1">Kalin.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Kannabich.</td>
+      <td class="tdl_ws1">Kanabić.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Cola.</td>
+      <td class="tdl_ws1">Kola.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Muzin.</td>
+      <td class="tdl_ws1">Mužina.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Mazoleni.</td>
+      <td class="tdl_ws1">Mazolić.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Mazzuranna.</td>
+      <td class="tdl_ws1">Mašuranić.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Nachich or Nanchini.</td>
+      <td class="tdl_ws1">Nakić.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Pollini.</td>
+      <td class="tdl_ws1">Polić.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Desplanes.</td>
+      <td class="tdl_ws1">Polinar.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Pisaroni.</td>
+      <td class="tdl_ws1">Pisar.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Zappa.</td>
+      <td class="tdl_ws1">Sapa.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Scalichius.</td>
+      <td class="tdl_ws1">Skalić.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Smetenich.</td>
+      <td class="tdl_ws1">Smetenić.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Tamparizza.</td>
+      <td class="tdl_ws1">Tamparica.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Thern.</td>
+      <td class="tdl_ws1">Trn.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Tartini.</td>
+      <td class="tdl_ws1">Trtić.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Tuscan.</td>
+      <td class="tdl_ws1">Tuskan.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Visochi.</td>
+      <td class="tdl_ws1">Visoki.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Zingarelli.</td>
+      <td class="tdl_ws1">Ciganin.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Zagitz.</td>
+      <td class="tdl_ws1">Zaic.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Zuchetto.</td>
+      <td class="tdl_ws1">Zuketić.</td>
+   </tr><tr>
+      <td class="tdl_ws1">Schuppanzigh.</td>
+      <td class="tdl_ws1">Zupančić.</td>
+   </tr>
+ </tbody>
+</table>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum"><a id="Page_96"></a>[Pg 96]</span></p>
+<h2 class="nobreak" id="APPENDIX_G">APPENDIX G.</h2>
+</div>
+
+<p class="f120"><i>Variants of the Name “Haydn” within<br>
+the Limits of the Composer’s Family.</i></p>
+
+<ul class="index">
+<li class="isub2">(<i>a</i>) <i>Haiden</i>:</li>
+<li class="isub5">Register of Caspar Haiden’s marriage, Hainburg, 1657.</li>
+<li class="isub5">Register of Joseph Haiden’s death, Hainburg, April 19, 1715.</li>
+<li class="isub5">Register of the composer’s baptism, Rohrau, April 1, 1732</li>
+<li class="isub7">(the father’s name is given as Mathias Haiden).</li>
+<li class="isub5">Register of his mother’s death, Rohrau, February 25, 1754.</li>
+<li class="isub2">&nbsp;</li>
+<li class="isub2">(<i>b</i>) <i>Hayden</i>:</li>
+<li class="isub5">Register of Thomas Hayden’s death, Hainburg, September 4,</li>
+<li class="isub7">1701, and of his widow’s re-marriage, Hainburg, January 8, 1702.</li>
+<li class="isub5">Register of the composer’s marriage, (St. Stephen’s, Vienna,</li>
+<li class="isub7">November 26, 1760).</li>
+<li class="isub5">The composer’s signature (quittance for salary) Eisenstadt,</li>
+<li class="isub7">January, 1762.</li>
+<li class="isub5">Register of Mathias Hayden’s death, Rohrau, September 14,</li>
+<li class="isub7">1763, and the monument to him now in Rohrau Churchyard.</li>
+<li class="isub5">Frequent concert notices, both of the composer and his brother</li>
+<li class="isub7">Michael, the latter at Salzburg.
+        <span class="pagenum"><a id="Page_97"></a>[Pg 97]</span></li>
+<li class="isub5">Habitual signature for many years of Michael Hayden.</li>
+<li class="isub5">The composer’s monument in Count Harrach’s Park at Rohrau.</li>
+<li class="isub2">&nbsp;</li>
+<li class="isub2">(<i>c</i>) <i>Haidin</i>:</li>
+<li class="isub5">The name of the composer’s mother is so given on the monument</li>
+<li class="isub7">in Rohrau Churchyard.</li>
+<li class="isub2">&nbsp;</li>
+<li class="isub2">(<i>d</i>) <i>Heyden</i>:</li>
+<li class="isub5">The composer’s name is so written throughout the “Convention und</li>
+<li class="isub7">Verhaltungs-Norma” under which he held his appointment</li>
+<li class="isub7">at Eisenstadt.</li>
+<li class="isub2">&nbsp;</li>
+<li class="isub2">(<i>e</i>) <i>Heiden</i>:</li>
+<li class="isub5">Register of Thomas Heiden’s baptism, Hainburg, 1655.</li>
+<li class="isub2">&nbsp;</li>
+<li class="isub2 bt">(<i>f</i>) <i>Hayd’n</i>:&emsp;Occasionally, though rarely,</li>
+<li class="isub2 bb">(<i>g</i>) <i>Haydtn</i>:<span class="ws2">in concert programmes.</span></li>
+<li class="isub2">&nbsp;</li>
+<li class="isub2">(<i>h</i>) <i>Haydn</i>:</li>
+<li class="isub5">Register of Mathias Haydn’s baptism, Hainburg, January 31, 1699.</li>
+<li class="isub5">The composer’s habitual signature after February, 1762.</li>
+<li class="isub5">Register of his wife’s death, Baden, March 20, 1800.</li>
+<li class="isub5">Diploma of the Freedom of Vienna, April 1, 1804.</li>
+<li class="isub5">Many notices and concert programmes.</li>
+<li class="isub5">Monument to the composer in the Einsiedeln Church at Eisenstadt.
+            <span class="pagenum"><a id="Page_98"></a>[Pg 98]</span></li>
+<li class="isub2">&nbsp;</li>
+<li class="isub2">(<i>i</i>) <i>Haidn</i>:</li>
+<li class="isub5">Register of Barbara Haidn’s baptism, Hainburg, January 2, 1658.</li>
+<li class="isub5">Frequent notices and concert programmes.</li>
+<li class="isub5">Letter of Beethoven, 1822.</li>
+<li class="isub2">&nbsp;</li>
+<li class="isub2">(<i>k</i>) <i>Hayrn</i>:</li>
+<li class="isub5">Register of Thomas Hayrn’s marriage, Hainburg, November 23,</li>
+<li class="isub7">1687—his father’s name is also given as Caspar Hayrn;</li>
+<li class="isub7">see letters (<i>a</i>), (<i>b</i>), and (<i>c</i>).</li>
+<li class="isub2">&nbsp;</li>
+<li class="isub2">(<i>l</i>) <i>Hein</i>:</li>
+<li class="isub5">Register of Mathias Hein’s marriage, Rohrau, November 24, 1728.</li>
+<li class="isub2">&nbsp;</li>
+<li class="isub2 bt">(<i>m</i>) <i>Haden</i>:</li>
+<li class="isub2">(<i>n</i>) <i>Hädn</i>:<span class="ws2">Occasional variants in registers and</span></li>
+<li class="isub2">(<i>o</i>) <i>Hayn</i>:<span class="ws3">documents at Hainburg, Rohrau, &amp;c.,</span></li>
+<li class="isub2">(<i>p</i>) <i>Hain</i>:<span class="ws3">noted by Dr. Pohl.</span></li>
+<li class="isub2 bb">(<i>q</i>) <i>Heim</i>:</li>
+<li class="isub2">&nbsp;</li>
+</ul>
+
+<hr class="r10">
+<p class="center spa2"><i>Large crown 8vo., with Portraits on Copper.<br> Price 7s. 6d.</i></p>
+
+<div class="chapter">
+<p class="f200"><b><span class="smcap">Studies in Modern Music.</span></b></p>
+<p class="f90"><b>HECTOR BERLIOZ, ROBERT SCHUMANN, RICHARD WAGNER.</b><br>
+THIRD EDITION.</p>
+</div>
+
+<p class="f120 spa1 spb1">By W. H. HADOW, M.A.,<br>
+<span class="fs_80"><i>Fellow of Worcester College, Oxon.</i></span></p>
+
+<div class="blockquot">
+<p>“We have seldom read a book on musical subjects which has given us
+so much pleasure as this one, and we can sincerely recommend it to all
+who are interested in the art.”—<i>Saturday Review.</i></p>
+
+<p>“It is a real relief, amid the rambling and slipshod effusions
+which constitute the bulk of musical <i>belles lettres</i>, to
+encounter such a volume as these ‘Studies in Modern Music,’ by Mr. W.
+H. Hadow. Mr. Hadow is himself a musician of no mean attainments; but
+there is no parade of technical knowledge in his book. He writes like
+a scholar and a gentleman, his style is felicitous and his critical
+attitude at once sane and generous.”—<i>Graphic.</i></p>
+
+<p>“He writes with striking thoughtfulness and breadth of view, so
+that his essays may be read with much interest by musicians. It is a
+remarkable book, because, unlike the majority of musical treatises by
+amateurs, it is full of truth and common sense.”—<i>Athenæum.</i></p>
+
+<p class="spb1">“The essay on musical criticism is well worth anybody’s reading;
+its general tendency is to extend the basis of modern criticism,
+commensurably with the larger and wider scope of modern music, to
+establish standards of musical value by which modern works can be more
+justly measured than by the pedantic misapplication of once valid
+rules. In his whole discourse on the subject Mr. Hadow gives evidence
+of immense common sense, backed up by innate and cultivated artistic
+perception.”—<i>Atlantic Monthly.</i></p>
+</div>
+<hr class="r10">
+
+<p class="center spa1"><i>BY THE SAME AUTHOR. With Portraits. Price 7s. 6d.</i></p>
+
+<div class="chapter">
+<p class="f200"><b><span class="smcap">Studies in Modern Music.</span></b></p>
+<p class="center spb1"><i>SECOND SERIES.</i></p>
+
+<p class="f90"><b>FREDERICK CHOPIN, ANTONIN DVORÁK, JOHANNES BRAHMS.</b><br>
+<i>PRECEDED BY AN ESSAY ON MUSICAL FORM.</i><br>SECOND EDITION.</p>
+</div>
+
+<div class="blockquot">
+<p>“The three biographies are charming; and in each case the
+author has something both true and new to say.”—<i>National</i>
+<i>Observer.</i></p>
+
+<p>“The development of form is described with many brilliant touches
+and with complete grasp of the subject, and the book, which will
+probably be considered to be even better than the former work, is most
+heartily to be recommended to all who wish to attain the highest kind
+of enjoyment of the best music.”—<i>Times.</i></p>
+
+<p>“Highly finished portraits are presented of the three modern
+masters named, and the articles are distinguished by the same
+musicianly knowledge and felicity of expression as those in the earlier
+book.”—<i>Athenæum.</i></p>
+
+<p>“The amount of labour and research condensed into these pages is
+really remarkable.”—<i>Musical Times.</i></p>
+
+<p>“There is not a word either in the historical or exegetical portions
+of Mr. Hadow’s work which will not furnish agreeable suggestion to
+the casual reader, and satisfaction to the student.”—<i>St. James’s
+Gazette.</i></p>
+</div>
+
+<p class="center spb2"><span class="smcap">London: SEELEY AND CO.,
+Limited,<br> 38, Great Russell Street, W.C.</span></p>
+
+<hr class="r10">
+
+<p class="center spa1"><i>Published in Two Editions,<br> price Sixpence and One Shilling;
+sewed;<br> also in cloth, at Eightpence and Eighteenpence.</i></p>
+
+<div class="chapter">
+<p class="f200"><span class="fs_50">THE</span><br><b><span class="smcap">Choral
+Service Book</span></b></p>
+<p class="center spb1">FOR PARISH CHURCHES,</p>
+</div>
+
+<p class="f80">CONTAINING</p>
+
+<p class="center"><i>THE FERIAL AND FESTAL RESPONSES, THE LITANY,<br>
+CHANTS ARRANGED FOR THE CANTICLES AND PSALTER,<br>
+AND MUSIC FOR THE COMMUNION SERVICE.</i></p>
+
+<p class="f110 spa1">Compiled and Edited by J. W. ELLIOTT,<br>
+<span class="fs_80"><i>Organist and Choirmaster of S. Mark’s, Hamilton Terrace, London.</i></span></p>
+
+<div class="blockquot">
+<ul class="index">
+<li class="isub2">The Book contains the following music for the Services of the Church:—</li>
+<li class="isub2">&nbsp;</li>
+<li class="isub2">THE FERIAL RESPONSES <span class="allsmcap">AND</span> THE LITANY.</li>
+<li class="isub4">With the Ancient Melody by <span class="smcap">John Marbeck</span>.</li>
+<li class="isub4">Harmonised by <span class="smcap">J. W. Elliott</span>.</li>
+<li class="isub2">THE FESTIVAL RESPONSES.</li>
+<li class="isub4">With the Harmonies by <span class="smcap">T. Tallis</span>.</li>
+<li class="isub2">THIRTY CHANTS FOR THE VENITE.</li>
+<li class="isub2">TWELVE SETS OF CHANTS FOR EACH OF THE</li>
+<li class="isub4">OTHER CANTICLES.</li>
+<li class="isub2">TWELVE SETTINGS OF THE KYRIE ELEISON.</li>
+<li class="isub2">A SETTING OF THE COMMUNION SERVICE.</li>
+<li class="isub4">By <span class="smcap">Dr. J. Naylor</span>.</li>
+<li class="isub2">TWO COMPLETE SETS OF CHANTS FOR THE PSALTER</li>
+<li class="isub2">SPECIAL SETTINGS OF THE PROPER PSALMS,</li>
+<li class="isub4"><span class="allsmcap">AND OF</span> PSALMS FOR A FLOWER SERVICE</li>
+<li class="isub4">AND HARVEST FESTIVAL.</li>
+</ul>
+
+<hr class="r10">
+
+<p class="f110 spa1"><i>OPINIONS OF THE PRESS.</i></p>
+
+<p>“It was a happy thought to combine in one book all the music
+required for an ordinary choral service. Most of our living Church
+musicians have been laid under contribution to this most excellent
+collection.”—<i>Musical Standard.</i></p>
+
+<p>“In the selection of chants the compiler has been guided by an
+excellent taste. The organist or choirmaster who uses this book will
+find here not merely the familiar chants we should all be sorry to
+miss, but many others but little known, and yet both beautiful and well
+adapted to congregational use. The book is very skilfully arranged and
+is clearly printed.”—<i>Record.</i></p>
+
+<p>“A very useful book. The intention of the editor is to promote
+congregational singing, and therefore all music which is too
+elaborate in character, or too high in pitch, has been rigorously
+excluded.”—<i>Church Bells.</i></p>
+
+<p>“An abundant supply of chants, single and double. Mr. Elliott’s work
+will assist organists in the choice of suitable chants.”—<i>Church
+Times.</i></p>
+
+<p>“A great variety of chants, old and new, will also commend the book,
+a set for the proper Psalms being especially useful. Altogether this is
+a book safely to be recommended.”—<i>Saturday Review.</i></p>
+</div>
+
+<hr class="r10">
+
+<p class="f110 spa1"><span class="smcap">London:</span><br>
+SEELEY AND CO.,<br><span class="smcap">Limited, 38, Great Russell Street, W.C.</span></p>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="footnotes">
+<p class="f120"><b>Footnotes:</b></p>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_1" href="#FNanchor_1" class="label">[1]</a>
+Južno-slovjenske Narodne Popievke: Zagreb, 1878-1881.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_2" href="#FNanchor_2" class="label">[2]</a>
+Josip Haydn i Hrvatske Narodne Popievke; reprinted from
+the Vienac, Zagreb, 1880.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_3" href="#FNanchor_3" class="label">[3]</a>
+As early as 1862 the Lumír put in a claim for Bohemia. This was a step
+in the right direction, since it represented Haydn as a Slav, but the
+evidence preponderates in favour of a more Southern origin.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_4" href="#FNanchor_4" class="label">[4]</a>
+Dr. Kuhač (Josip Haydn, p. 5) declares that one in every three of
+the population “either sings, plays, or composes.” And there is a significant
+Croatian proverb to the effect that “an age is known by its music.”</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_5" href="#FNanchor_5" class="label">[5]</a>
+For the sake of clearness, it may be well to say that Croatia proper
+means that district across the Save of which Agram (<i>i.e.</i> Zagreb)
+is the capital; and that the same race occupies the entire territory
+from the Drave to the Lake of Scutari; and from the Roumanian frontier
+to the Adriatic. There is some Italian population in the extreme west,
+<i>e.g.</i>, at Zara; but most of this region is exclusively Slavonic,
+and the Servo-Croatian language prevails with certain modifications
+over the whole of it. There is also a considerable Croat population in
+Istria, Carniola, Lower Austria, and the adjoining parts of Hungary.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_6" href="#FNanchor_6" class="label">[6]</a>
+Josip Haydn, p. 3.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_7" href="#FNanchor_7" class="label">[7]</a>
+<a href="#APPENDIX_A">See Appendix A</a>.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_8" href="#FNanchor_8" class="label">[8]</a>
+<a href="#APPENDIX_B">See Appendix B</a>.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_9" href="#FNanchor_9" class="label">[9]</a>
+<a href="#APPENDIX_C">See Appendix C</a> and compare Dr. Mitterrutzer’s
+“Slavisches aus dem Oestlichen Pusterthal in Tirol,” quoted by
+Dr. Kuhač, Josip Haydn, p. 12.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_10" href="#FNanchor_10" class="label">[10]</a>
+For other instances of Slavonic occupation and
+nomenclature <a href="#APPENDIX_D">see Appendix D</a>.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_11" href="#FNanchor_11" class="label">[11]</a>
+<a href="#APPENDIX_E">See Appendix E</a>.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_12" href="#FNanchor_12" class="label">[12]</a>
+He called himself successively Abel, Ebel, Ibel, and Eibel. But his
+patrons always moved a stage in advance, even completing the circle by
+pronouncing the diphthong as it is pronounced in the word “eight.”</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_13" href="#FNanchor_13" class="label">[13]</a>
+For a list of such adaptations <a href="#APPENDIX_F">see Appendix F</a>.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_14" href="#FNanchor_14" class="label">[14]</a>
+Josip Haydn, p. 16. <a href="#APPENDIX_E">See note to Appendix E</a>.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_15" href="#FNanchor_15" class="label">[15]</a>
+Dr. Pohl gives fourteen variants, and even his list is not exhaustive.
+There are at least six in documents relating to the composer himself.
+<a href="#APPENDIX_G">See Appendix G</a>.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_16" href="#FNanchor_16" class="label">[16]</a>
+See the announcement of “Alexander’s Feast” (Vienna, 1812) preserved in
+the Gesellschaft library. Carpani spells the name Hendl.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_17" href="#FNanchor_17" class="label">[17]</a>
+It is fair to state that some etymologists derive the name Haiden from
+the district “Auf der Haid” near Hainburg. But this is very unlikely.
+The district is a narrow stretch of moorland, and could not account
+for the prevalence of the name through the whole country-side, to say
+nothing of the frequent occurrence in Croatia proper.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_18" href="#FNanchor_18" class="label">[18]</a>
+Its second title, “Trstnik,” is significant enough. And at the present
+day it contain a good many Croats, especially among the poorer
+inhabitants.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_19" href="#FNanchor_19" class="label">[19]</a>
+In like manner Pìlar has been Germanised into Piller, Solar into
+Soller, Kresar into Kresser, and so on. See a list of such changes in
+Kuhač’s Josip Haydn, pp. 17, 18.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_20" href="#FNanchor_20" class="label">[20]</a>
+To je lovac i ribar kao Haydn; <i>i.e.</i>, as good a shot and
+fisherman as Haydn.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_21" href="#FNanchor_21" class="label">[21]</a>
+See instances quoted by Dr. Kuhač, Josip Haydn, pp. 27-29.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_22" href="#FNanchor_22" class="label">[22]</a>
+Dr. Kuhač gives 1754 as the date of this work. If so, it is the
+earliest known instance. The above date, which is more probably
+correct, is that given by Dr. Pohl.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_23" href="#FNanchor_23" class="label">[23]</a>
+See Kuhač, “South Slavonic Popular Songs,” vol. iii. pp. 98-100.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_24" href="#FNanchor_24" class="label">[24]</a>
+See Kuhač, “South Slavonic Popular Songs,” vol. iii. p. 92.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_25" href="#FNanchor_25" class="label">[25]</a>
+See Kuhač, “South Slavonic Popular Songs,” vol. iii. p. 82.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_26" href="#FNanchor_26" class="label">[26]</a>
+Dr. Kuhač calls it the Sixth Quartet (“u Allegru šestoga
+četverogudja”), but it is not the sixth in the Paris and London
+edition, or in the Dresden, or in that of Peters.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_27" href="#FNanchor_27" class="label">[27]</a>
+This story is sometimes told of the Mariazeller Mass in C major
+(Novello, No. 15). But first, the Mariazeller Mass was written by
+commission for Anton Liebe von Kreutzner; second, it is set to the
+usual Latin text; and third, it does not contain any of the popular
+melodies in question.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_28" href="#FNanchor_28" class="label">[28]</a>
+The three-bar phrase is a common feature of early Slavonic melodies,
+especially when conjoined with a second phrase of four bars in
+irregular balance.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_29" href="#FNanchor_29" class="label">[29]</a>
+See in particular the song “Na travniku” (p. 46), and the first Kolo
+tune (p. 50).</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_30" href="#FNanchor_30" class="label">[30]</a>
+The musical stanza, in this song, goes to a half-stanza of
+the words. The first is—</p>
+
+<table class="spb1">
+   <tbody><tr>
+      <td class="tdl">Stal se jesem rano jutro</td>
+      <td class="tdc_wsp"><i>i.e.</i>,</td>
+      <td class="tdl">In the early morning stood I</td>
+   </tr><tr>
+      <td class="tdl">malo pred zorjum.</td>
+      <td class="tdc_wsp">&nbsp;</td>
+      <td class="tdl">Close upon the dawn.</td>
+   </tr>
+ </tbody>
+</table>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_31" href="#FNanchor_31" class="label">[31]</a>
+There is no need to discuss here the question of Telemann’s Rondo. If
+its resemblance to Haydn’s tune be anything more than fortuitous, it is
+probably referable to the same source. See Josip Haydn, p. 81.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_32" href="#FNanchor_32" class="label">[32]</a>
+Preserved in the Museum of the Gesellschaft Library at
+Vienna. It is a small oblong sheet, similar to those on which Haydn
+wrote his “Canons,” and contains, first, the complete sketch of the
+melody—</p>
+
+<div class="figcenter">
+  <img src="images/pg_70_a_ftnt.jpg" alt="" width="600" height="478" >
+  <p class="center"><a href="music/pg_70_a_ftnt.mp3">[Listen]</a></p>
+</div>
+
+<p class="no-indent">and below it the third strain amended—</p>
+
+<div class="figcenter">
+  <img src="images/pg_70_b_ftnt.jpg" alt="" width="600" height="72" >
+  <p class="center"><a href="music/pg_70_b_ftnt.mp3">[Listen]</a></p>
+</div>
+
+<p>The improved version of the fourth strain is not there, but, curiously
+enough, Pohl notes an anticipation of it in the Mariazeller Mass. See
+Pohl’s Haydn, vol. ii. p. 333.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_33" href="#FNanchor_33" class="label">[33]</a>
+Its Croatian name, “Sopron,” is still in current use, and it contains
+enough Slavonic inhabitants to employ their language in many of its
+official notices.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_34" href="#FNanchor_34" class="label">[34]</a>
+The passage is worth quoting entire for more than one reason. “Nor
+can we imagine the art is on the decline while so great a genius as
+Beethoven lives. This author, though less perfect in other respects
+than Haydn, exceeds him in power of imagination; and from recent
+specimens of his unbounded fancy it is to be expected that he will
+extend the art in a way never contemplated even by Haydn or Mozart. If
+we were inclined to push our speculations further upon this point we
+might refer to the very extraordinary discoveries that are now making
+in Russia in the department of instrumental music. In the course of
+twenty years it is probable that such effects will be produced in that
+country as will lead to the most important results in the science of
+sounds.”—W. Gardiner, in the translation of Stendhal’s “Letters on
+Haydn,” 2nd edition (London, 1818), page 3.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_35" href="#FNanchor_35" class="label">[35]</a>
+Possibly German, see “Schwartz” below.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_36" href="#FNanchor_36" class="label">[36]</a>
+The case of Liszt is somewhat apart from the others. The earliest form
+of his name appears to be Listhius, which Dr. Kuhač claims with some
+plausibility as Slavonic (naše gore list). But as early as 1747 the
+Magyarised form appears in the person of Canon Johann Liszt; and there
+can be little doubt that by the time of the great pianist’s birth
+the family had become thoroughly Hungarian. There are, of course,
+many Hungarian families in which Magyar and Slavonic strains are
+united, and in the music of Liszt the Magyar element unquestionably
+predominates.</p>
+</div>
+
+<div class="footnote"><p class="no-indent">
+<a id="Footnote_37" href="#FNanchor_37" class="label">[37]</a>
+According to the two meanings of the word Hummel.</p>
+</div></div>
+
+<div class="chapter">
+<div class="transnote bbox spa2">
+<p class="f120 spa1">Transcriber’s Notes:</p>
+<hr class="r10">
+<p>The cover image was created by the transcriber, and is in the public domain.</p>
+<p>New original cover art included with this eBook is granted to the public domain.</p>
+<p>Deprecated spellings or ancient words were not corrected.</p>
+<p>The illustrations and footnotes have been moved so that they do not break up
+      paragraphs and so that they are next to the text they illustrate.</p>
+<p>Typographical and punctuation errors have been silently corrected.</p>
+</div></div>
+
+<div style='text-align:center'>*** END OF THE PROJECT GUTENBERG EBOOK 76017 ***</div>
+</body>
+</html>
+
